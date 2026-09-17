@@ -111,11 +111,108 @@ def limpieza(df):
     return df
 
 
+# ------------------------------------------------------------
+# 4. Nuevas variables
+# ------------------------------------------------------------
+def nuevas_variables(df):
+    titulo("4. NUEVAS VARIABLES")
+    df = df.copy()
+
+    # FamilySize: hermanos/pareja (SibSp) + padres/hijos (Parch) + el propio pasajero
+    df["FamilySize"] = df["SibSp"] + df["Parch"] + 1
+
+    # TravelAlone: "Solo" si FamilySize es 1, "Acompañado" si es mayor
+    df["TravelAlone"] = df["FamilySize"].apply(lambda x: "Solo" if x == 1 else "Acompañado")
+
+    # AgeGroup: criterios definidos para este proyecto
+    #   Niño:          0 a 12 años
+    #   Joven:        13 a 29 años
+    #   Adulto:       30 a 59 años
+    #   Adulto mayor: 60 años o más
+    df["AgeGroup"] = pd.cut(
+        df["Age"],
+        bins=[0, 12, 29, 59, 120],
+        labels=["Niño", "Joven", "Adulto", "Adulto mayor"],
+        include_lowest=True,
+    )
+
+    # FareGroup: la tarifa dividida en 4 grupos con la misma cantidad de pasajeros (cuartiles)
+    df["FareGroup"] = pd.qcut(df["Fare"], q=4, labels=["Baja", "Media-baja", "Media-alta", "Alta"])
+
+    print("Variables creadas: FamilySize, TravelAlone, AgeGroup, FareGroup")
+    print("\nPasajeros por grupo de edad:")
+    print(df["AgeGroup"].value_counts().sort_index())
+    print("\nTamaño de familia:")
+    print(df["FamilySize"].value_counts().sort_index())
+    return df
+
+
+# ------------------------------------------------------------
+# 5. Análisis
+# ------------------------------------------------------------
+def tasa_supervivencia(df, columna):
+    """Tabla con número de pasajeros, sobrevivientes y % de supervivencia por grupo."""
+    tabla = df.groupby(columna, observed=True)["Survived"].agg(pasajeros="count", sobrevivientes="sum")
+    tabla["supervivencia_%"] = (tabla["sobrevivientes"] / tabla["pasajeros"] * 100).round(1)
+    return tabla
+
+
+def analisis(df):
+    titulo("5. ANÁLISIS")
+    resultados = {}
+
+    # Pregunta 1
+    print("\nP1. ¿Qué porcentaje de pasajeros sobrevivió?")
+    total = len(df)
+    sobrevivientes = df["Survived"].sum()
+    print(f"Sobrevivieron {sobrevivientes} de {total} pasajeros ({sobrevivientes / total * 100:.1f} %).")
+
+    # Pregunta 2
+    print("\nP2. ¿Cómo cambia la supervivencia entre hombres y mujeres?")
+    resultados["sexo"] = tasa_supervivencia(df, "Sex")
+    print(resultados["sexo"])
+
+    # Pregunta 3
+    print("\nP3. ¿Cómo cambia la supervivencia según la clase del pasajero?")
+    resultados["clase"] = tasa_supervivencia(df, "Pclass")
+    print(resultados["clase"])
+    print("\nSupervivencia (%) por clase y sexo:")
+    print((df.pivot_table(index="Pclass", columns="Sex", values="Survived") * 100).round(1))
+
+    # Pregunta 4
+    print("\nP4. ¿Qué grupos de edad presentan mayor supervivencia?")
+    resultados["edad"] = tasa_supervivencia(df, "AgeGroup")
+    print(resultados["edad"])
+
+    # Pregunta 5
+    print("\nP5. ¿Viajar solo o acompañado está relacionado con la supervivencia?")
+    resultados["solo"] = tasa_supervivencia(df, "TravelAlone")
+    print(resultados["solo"])
+    print("\nPor tamaño de familia:")
+    resultados["familia"] = tasa_supervivencia(df, "FamilySize")
+    print(resultados["familia"])
+
+    # Pregunta 6
+    print("\nP6. ¿Existe relación entre la tarifa pagada y la supervivencia?")
+    resultados["tarifa"] = tasa_supervivencia(df, "FareGroup")
+    print(resultados["tarifa"])
+    print("\nTarifa mediana según supervivencia:")
+    print(df.groupby("Survived_texto")["Fare"].median().round(2))
+
+    # Guardar las tablas en CSV
+    for nombre, tabla in resultados.items():
+        tabla.to_csv(CARPETA_RESULTADOS / f"supervivencia_por_{nombre}.csv")
+    print("\nTablas guardadas en outputs/resultados/")
+    return resultados
+
+
 def main():
     CARPETA_RESULTADOS.mkdir(parents=True, exist_ok=True)
     df = cargar_datos()
     exploracion_inicial(df)
     df = limpieza(df)
+    df = nuevas_variables(df)
+    analisis(df)
 
 
 if __name__ == "__main__":
