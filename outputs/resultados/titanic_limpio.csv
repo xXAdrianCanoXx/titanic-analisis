@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Fare,Embarked,HasCabin,Survived_texto
+1,0,3,"Braund, Mr. Owen Harris",Hombre,22.0,1,0,7.25,Southampton,0,No sobrevivió
+2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",Mujer,38.0,1,0,71.2833,Cherbourg,1,Sobrevivió
+3,1,3,"Heikkinen, Miss. Laina",Mujer,26.0,0,0,7.925,Southampton,0,Sobrevivió
+4,1,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",Mujer,35.0,1,0,53.1,Southampton,1,Sobrevivió
+5,0,3,"Allen, Mr. William Henry",Hombre,35.0,0,0,8.05,Southampton,0,No sobrevivió
+6,0,3,"Moran, Mr. James",Hombre,25.0,0,0,8.4583,Queenstown,0,No sobrevivió
+7,0,1,"McCarthy, Mr. Timothy J",Hombre,54.0,0,0,51.8625,Southampton,1,No sobrevivió
+8,0,3,"Palsson, Master. Gosta Leonard",Hombre,2.0,3,1,21.075,Southampton,0,No sobrevivió
+9,1,3,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",Mujer,27.0,0,2,11.1333,Southampton,0,Sobrevivió
+10,1,2,"Nasser, Mrs. Nicholas (Adele Achem)",Mujer,14.0,1,0,30.0708,Cherbourg,0,Sobrevivió
+11,1,3,"Sandstrom, Miss. Marguerite Rut",Mujer,4.0,1,1,16.7,Southampton,1,Sobrevivió
+12,1,1,"Bonnell, Miss. Elizabeth",Mujer,58.0,0,0,26.55,Southampton,1,Sobrevivió
+13,0,3,"Saundercock, Mr. William Henry",Hombre,20.0,0,0,8.05,Southampton,0,No sobrevivió
+14,0,3,"Andersson, Mr. Anders Johan",Hombre,39.0,1,5,31.275,Southampton,0,No sobrevivió
+15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",Mujer,14.0,0,0,7.8542,Southampton,0,No sobrevivió
+16,1,2,"Hewlett, Mrs. (Mary D Kingcome) ",Mujer,55.0,0,0,16.0,Southampton,0,Sobrevivió
+17,0,3,"Rice, Master. Eugene",Hombre,2.0,4,1,29.125,Queenstown,0,No sobrevivió
+18,1,2,"Williams, Mr. Charles Eugene",Hombre,30.0,0,0,13.0,Southampton,0,Sobrevivió
+19,0,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",Mujer,31.0,1,0,18.0,Southampton,0,No sobrevivió
+20,1,3,"Masselmani, Mrs. Fatima",Mujer,21.5,0,0,7.225,Cherbourg,0,Sobrevivió
+21,0,2,"Fynney, Mr. Joseph J",Hombre,35.0,0,0,26.0,Southampton,0,No sobrevivió
+22,1,2,"Beesley, Mr. Lawrence",Hombre,34.0,0,0,13.0,Southampton,1,Sobrevivió
+23,1,3,"McGowan, Miss. Anna ""Annie""",Mujer,15.0,0,0,8.0292,Queenstown,0,Sobrevivió
+24,1,1,"Sloper, Mr. William Thompson",Hombre,28.0,0,0,35.5,Southampton,1,Sobrevivió
+25,0,3,"Palsson, Miss. Torborg Danira",Mujer,8.0,3,1,21.075,Southampton,0,No sobrevivió
+26,1,3,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",Mujer,38.0,1,5,31.3875,Southampton,0,Sobrevivió
+27,0,3,"Emir, Mr. Farred Chehab",Hombre,25.0,0,0,7.225,Cherbourg,0,No sobrevivió
+28,0,1,"Fortune, Mr. Charles Alexander",Hombre,19.0,3,2,263.0,Southampton,1,No sobrevivió
+29,1,3,"O'Dwyer, Miss. Ellen ""Nellie""",Mujer,21.5,0,0,7.8792,Queenstown,0,Sobrevivió
+30,0,3,"Todoroff, Mr. Lalio",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+31,0,1,"Uruchurtu, Don. Manuel E",Hombre,40.0,0,0,27.7208,Cherbourg,0,No sobrevivió
+32,1,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",Mujer,35.0,1,0,146.5208,Cherbourg,1,Sobrevivió
+33,1,3,"Glynn, Miss. Mary Agatha",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+34,0,2,"Wheadon, Mr. Edward H",Hombre,66.0,0,0,10.5,Southampton,0,No sobrevivió
+35,0,1,"Meyer, Mr. Edgar Joseph",Hombre,28.0,1,0,82.1708,Cherbourg,0,No sobrevivió
+36,0,1,"Holverson, Mr. Alexander Oskar",Hombre,42.0,1,0,52.0,Southampton,0,No sobrevivió
+37,1,3,"Mamee, Mr. Hanna",Hombre,25.0,0,0,7.2292,Cherbourg,0,Sobrevivió
+38,0,3,"Cann, Mr. Ernest Charles",Hombre,21.0,0,0,8.05,Southampton,0,No sobrevivió
+39,0,3,"Vander Planke, Miss. Augusta Maria",Mujer,18.0,2,0,18.0,Southampton,0,No sobrevivió
+40,1,3,"Nicola-Yarred, Miss. Jamila",Mujer,14.0,1,0,11.2417,Cherbourg,0,Sobrevivió
+41,0,3,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",Mujer,40.0,1,0,9.475,Southampton,0,No sobrevivió
+42,0,2,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",Mujer,27.0,1,0,21.0,Southampton,0,No sobrevivió
+43,0,3,"Kraeff, Mr. Theodor",Hombre,25.0,0,0,7.8958,Cherbourg,0,No sobrevivió
+44,1,2,"Laroche, Miss. Simonne Marie Anne Andree",Mujer,3.0,1,2,41.5792,Cherbourg,0,Sobrevivió
+45,1,3,"Devaney, Miss. Margaret Delia",Mujer,19.0,0,0,7.8792,Queenstown,0,Sobrevivió
+46,0,3,"Rogers, Mr. William John",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+47,0,3,"Lennon, Mr. Denis",Hombre,25.0,1,0,15.5,Queenstown,0,No sobrevivió
+48,1,3,"O'Driscoll, Miss. Bridget",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+49,0,3,"Samaan, Mr. Youssef",Hombre,25.0,2,0,21.6792,Cherbourg,0,No sobrevivió
+50,0,3,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",Mujer,18.0,1,0,17.8,Southampton,0,No sobrevivió
+51,0,3,"Panula, Master. Juha Niilo",Hombre,7.0,4,1,39.6875,Southampton,0,No sobrevivió
+52,0,3,"Nosworthy, Mr. Richard Cater",Hombre,21.0,0,0,7.8,Southampton,0,No sobrevivió
+53,1,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",Mujer,49.0,1,0,76.7292,Cherbourg,1,Sobrevivió
+54,1,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",Mujer,29.0,1,0,26.0,Southampton,0,Sobrevivió
+55,0,1,"Ostby, Mr. Engelhart Cornelius",Hombre,65.0,0,1,61.9792,Cherbourg,1,No sobrevivió
+56,1,1,"Woolner, Mr. Hugh",Hombre,40.0,0,0,35.5,Southampton,1,Sobrevivió
+57,1,2,"Rugg, Miss. Emily",Mujer,21.0,0,0,10.5,Southampton,0,Sobrevivió
+58,0,3,"Novel, Mr. Mansouer",Hombre,28.5,0,0,7.2292,Cherbourg,0,No sobrevivió
+59,1,2,"West, Miss. Constance Mirium",Mujer,5.0,1,2,27.75,Southampton,0,Sobrevivió
+60,0,3,"Goodwin, Master. William Frederick",Hombre,11.0,5,2,46.9,Southampton,0,No sobrevivió
+61,0,3,"Sirayanian, Mr. Orsen",Hombre,22.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+62,1,1,"Icard, Miss. Amelie",Mujer,38.0,0,0,80.0,Southampton,1,Sobrevivió
+63,0,1,"Harris, Mr. Henry Birkhardt",Hombre,45.0,1,0,83.475,Southampton,1,No sobrevivió
+64,0,3,"Skoog, Master. Harald",Hombre,4.0,3,2,27.9,Southampton,0,No sobrevivió
+65,0,1,"Stewart, Mr. Albert A",Hombre,40.0,0,0,27.7208,Cherbourg,0,No sobrevivió
+66,1,3,"Moubarek, Master. Gerios",Hombre,25.0,1,1,15.2458,Cherbourg,0,Sobrevivió
+67,1,2,"Nye, Mrs. (Elizabeth Ramell)",Mujer,29.0,0,0,10.5,Southampton,1,Sobrevivió
+68,0,3,"Crease, Mr. Ernest James",Hombre,19.0,0,0,8.1583,Southampton,0,No sobrevivió
+69,1,3,"Andersson, Miss. Erna Alexandra",Mujer,17.0,4,2,7.925,Southampton,0,Sobrevivió
+70,0,3,"Kink, Mr. Vincenz",Hombre,26.0,2,0,8.6625,Southampton,0,No sobrevivió
+71,0,2,"Jenkin, Mr. Stephen Curnow",Hombre,32.0,0,0,10.5,Southampton,0,No sobrevivió
+72,0,3,"Goodwin, Miss. Lillian Amy",Mujer,16.0,5,2,46.9,Southampton,0,No sobrevivió
+73,0,2,"Hood, Mr. Ambrose Jr",Hombre,21.0,0,0,73.5,Southampton,0,No sobrevivió
+74,0,3,"Chronopoulos, Mr. Apostolos",Hombre,26.0,1,0,14.4542,Cherbourg,0,No sobrevivió
+75,1,3,"Bing, Mr. Lee",Hombre,32.0,0,0,56.4958,Southampton,0,Sobrevivió
+76,0,3,"Moen, Mr. Sigurd Hansen",Hombre,25.0,0,0,7.65,Southampton,1,No sobrevivió
+77,0,3,"Staneff, Mr. Ivan",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+78,0,3,"Moutal, Mr. Rahamin Haim",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+79,1,2,"Caldwell, Master. Alden Gates",Hombre,0.83,0,2,29.0,Southampton,0,Sobrevivió
+80,1,3,"Dowdell, Miss. Elizabeth",Mujer,30.0,0,0,12.475,Southampton,0,Sobrevivió
+81,0,3,"Waelens, Mr. Achille",Hombre,22.0,0,0,9.0,Southampton,0,No sobrevivió
+82,1,3,"Sheerlinck, Mr. Jan Baptist",Hombre,29.0,0,0,9.5,Southampton,0,Sobrevivió
+83,1,3,"McDermott, Miss. Brigdet Delia",Mujer,21.5,0,0,7.7875,Queenstown,0,Sobrevivió
+84,0,1,"Carrau, Mr. Francisco M",Hombre,28.0,0,0,47.1,Southampton,0,No sobrevivió
+85,1,2,"Ilett, Miss. Bertha",Mujer,17.0,0,0,10.5,Southampton,0,Sobrevivió
+86,1,3,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",Mujer,33.0,3,0,15.85,Southampton,0,Sobrevivió
+87,0,3,"Ford, Mr. William Neal",Hombre,16.0,1,3,34.375,Southampton,0,No sobrevivió
+88,0,3,"Slocovski, Mr. Selman Francis",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+89,1,1,"Fortune, Miss. Mabel Helen",Mujer,23.0,3,2,263.0,Southampton,1,Sobrevivió
+90,0,3,"Celotti, Mr. Francesco",Hombre,24.0,0,0,8.05,Southampton,0,No sobrevivió
+91,0,3,"Christmann, Mr. Emil",Hombre,29.0,0,0,8.05,Southampton,0,No sobrevivió
+92,0,3,"Andreasson, Mr. Paul Edvin",Hombre,20.0,0,0,7.8542,Southampton,0,No sobrevivió
+93,0,1,"Chaffee, Mr. Herbert Fuller",Hombre,46.0,1,0,61.175,Southampton,1,No sobrevivió
+94,0,3,"Dean, Mr. Bertram Frank",Hombre,26.0,1,2,20.575,Southampton,0,No sobrevivió
+95,0,3,"Coxon, Mr. Daniel",Hombre,59.0,0,0,7.25,Southampton,0,No sobrevivió
+96,0,3,"Shorney, Mr. Charles Joseph",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+97,0,1,"Goldschmidt, Mr. George B",Hombre,71.0,0,0,34.6542,Cherbourg,1,No sobrevivió
+98,1,1,"Greenfield, Mr. William Bertram",Hombre,23.0,0,1,63.3583,Cherbourg,1,Sobrevivió
+99,1,2,"Doling, Mrs. John T (Ada Julia Bone)",Mujer,34.0,0,1,23.0,Southampton,0,Sobrevivió
+100,0,2,"Kantor, Mr. Sinai",Hombre,34.0,1,0,26.0,Southampton,0,No sobrevivió
+101,0,3,"Petranec, Miss. Matilda",Mujer,28.0,0,0,7.8958,Southampton,0,No sobrevivió
+102,0,3,"Petroff, Mr. Pastcho (""Pentcho"")",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+103,0,1,"White, Mr. Richard Frasar",Hombre,21.0,0,1,77.2875,Southampton,1,No sobrevivió
+104,0,3,"Johansson, Mr. Gustaf Joel",Hombre,33.0,0,0,8.6542,Southampton,0,No sobrevivió
+105,0,3,"Gustafsson, Mr. Anders Vilhelm",Hombre,37.0,2,0,7.925,Southampton,0,No sobrevivió
+106,0,3,"Mionoff, Mr. Stoytcho",Hombre,28.0,0,0,7.8958,Southampton,0,No sobrevivió
+107,1,3,"Salkjelsvik, Miss. Anna Kristine",Mujer,21.0,0,0,7.65,Southampton,0,Sobrevivió
+108,1,3,"Moss, Mr. Albert Johan",Hombre,25.0,0,0,7.775,Southampton,0,Sobrevivió
+109,0,3,"Rekic, Mr. Tido",Hombre,38.0,0,0,7.8958,Southampton,0,No sobrevivió
+110,1,3,"Moran, Miss. Bertha",Mujer,21.5,1,0,24.15,Queenstown,0,Sobrevivió
+111,0,1,"Porter, Mr. Walter Chamberlain",Hombre,47.0,0,0,52.0,Southampton,1,No sobrevivió
+112,0,3,"Zabour, Miss. Hileni",Mujer,14.5,1,0,14.4542,Cherbourg,0,No sobrevivió
+113,0,3,"Barton, Mr. David John",Hombre,22.0,0,0,8.05,Southampton,0,No sobrevivió
+114,0,3,"Jussila, Miss. Katriina",Mujer,20.0,1,0,9.825,Southampton,0,No sobrevivió
+115,0,3,"Attalah, Miss. Malake",Mujer,17.0,0,0,14.4583,Cherbourg,0,No sobrevivió
+116,0,3,"Pekoniemi, Mr. Edvard",Hombre,21.0,0,0,7.925,Southampton,0,No sobrevivió
+117,0,3,"Connors, Mr. Patrick",Hombre,70.5,0,0,7.75,Queenstown,0,No sobrevivió
+118,0,2,"Turpin, Mr. William John Robert",Hombre,29.0,1,0,21.0,Southampton,0,No sobrevivió
+119,0,1,"Baxter, Mr. Quigg Edmond",Hombre,24.0,0,1,247.5208,Cherbourg,1,No sobrevivió
+120,0,3,"Andersson, Miss. Ellis Anna Maria",Mujer,2.0,4,2,31.275,Southampton,0,No sobrevivió
+121,0,2,"Hickman, Mr. Stanley George",Hombre,21.0,2,0,73.5,Southampton,0,No sobrevivió
+122,0,3,"Moore, Mr. Leonard Charles",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+123,0,2,"Nasser, Mr. Nicholas",Hombre,32.5,1,0,30.0708,Cherbourg,0,No sobrevivió
+124,1,2,"Webber, Miss. Susan",Mujer,32.5,0,0,13.0,Southampton,1,Sobrevivió
+125,0,1,"White, Mr. Percival Wayland",Hombre,54.0,0,1,77.2875,Southampton,1,No sobrevivió
+126,1,3,"Nicola-Yarred, Master. Elias",Hombre,12.0,1,0,11.2417,Cherbourg,0,Sobrevivió
+127,0,3,"McMahon, Mr. Martin",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+128,1,3,"Madsen, Mr. Fridtjof Arne",Hombre,24.0,0,0,7.1417,Southampton,0,Sobrevivió
+129,1,3,"Peter, Miss. Anna",Mujer,21.5,1,1,22.3583,Cherbourg,1,Sobrevivió
+130,0,3,"Ekstrom, Mr. Johan",Hombre,45.0,0,0,6.975,Southampton,0,No sobrevivió
+131,0,3,"Drazenoic, Mr. Jozef",Hombre,33.0,0,0,7.8958,Cherbourg,0,No sobrevivió
+132,0,3,"Coelho, Mr. Domingos Fernandeo",Hombre,20.0,0,0,7.05,Southampton,0,No sobrevivió
+133,0,3,"Robins, Mrs. Alexander A (Grace Charity Laury)",Mujer,47.0,1,0,14.5,Southampton,0,No sobrevivió
+134,1,2,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",Mujer,29.0,1,0,26.0,Southampton,0,Sobrevivió
+135,0,2,"Sobey, Mr. Samuel James Hayden",Hombre,25.0,0,0,13.0,Southampton,0,No sobrevivió
+136,0,2,"Richard, Mr. Emile",Hombre,23.0,0,0,15.0458,Cherbourg,0,No sobrevivió
+137,1,1,"Newsom, Miss. Helen Monypeny",Mujer,19.0,0,2,26.2833,Southampton,1,Sobrevivió
+138,0,1,"Futrelle, Mr. Jacques Heath",Hombre,37.0,1,0,53.1,Southampton,1,No sobrevivió
+139,0,3,"Osen, Mr. Olaf Elon",Hombre,16.0,0,0,9.2167,Southampton,0,No sobrevivió
+140,0,1,"Giglio, Mr. Victor",Hombre,24.0,0,0,79.2,Cherbourg,1,No sobrevivió
+141,0,3,"Boulos, Mrs. Joseph (Sultana)",Mujer,21.5,0,2,15.2458,Cherbourg,0,No sobrevivió
+142,1,3,"Nysten, Miss. Anna Sofia",Mujer,22.0,0,0,7.75,Southampton,0,Sobrevivió
+143,1,3,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",Mujer,24.0,1,0,15.85,Southampton,0,Sobrevivió
+144,0,3,"Burke, Mr. Jeremiah",Hombre,19.0,0,0,6.75,Queenstown,0,No sobrevivió
+145,0,2,"Andrew, Mr. Edgardo Samuel",Hombre,18.0,0,0,11.5,Southampton,0,No sobrevivió
+146,0,2,"Nicholls, Mr. Joseph Charles",Hombre,19.0,1,1,36.75,Southampton,0,No sobrevivió
+147,1,3,"Andersson, Mr. August Edvard (""Wennerstrom"")",Hombre,27.0,0,0,7.7958,Southampton,0,Sobrevivió
+148,0,3,"Ford, Miss. Robina Maggie ""Ruby""",Mujer,9.0,2,2,34.375,Southampton,0,No sobrevivió
+149,0,2,"Navratil, Mr. Michel (""Louis M Hoffman"")",Hombre,36.5,0,2,26.0,Southampton,1,No sobrevivió
+150,0,2,"Byles, Rev. Thomas Roussel Davids",Hombre,42.0,0,0,13.0,Southampton,0,No sobrevivió
+151,0,2,"Bateman, Rev. Robert James",Hombre,51.0,0,0,12.525,Southampton,0,No sobrevivió
+152,1,1,"Pears, Mrs. Thomas (Edith Wearne)",Mujer,22.0,1,0,66.6,Southampton,1,Sobrevivió
+153,0,3,"Meo, Mr. Alfonzo",Hombre,55.5,0,0,8.05,Southampton,0,No sobrevivió
+154,0,3,"van Billiard, Mr. Austin Blyler",Hombre,40.5,0,2,14.5,Southampton,0,No sobrevivió
+155,0,3,"Olsen, Mr. Ole Martin",Hombre,25.0,0,0,7.3125,Southampton,0,No sobrevivió
+156,0,1,"Williams, Mr. Charles Duane",Hombre,51.0,0,1,61.3792,Cherbourg,0,No sobrevivió
+157,1,3,"Gilnagh, Miss. Katherine ""Katie""",Mujer,16.0,0,0,7.7333,Queenstown,0,Sobrevivió
+158,0,3,"Corn, Mr. Harry",Hombre,30.0,0,0,8.05,Southampton,0,No sobrevivió
+159,0,3,"Smiljanic, Mr. Mile",Hombre,25.0,0,0,8.6625,Southampton,0,No sobrevivió
+160,0,3,"Sage, Master. Thomas Henry",Hombre,25.0,8,2,69.55,Southampton,0,No sobrevivió
+161,0,3,"Cribb, Mr. John Hatfield",Hombre,44.0,0,1,16.1,Southampton,0,No sobrevivió
+162,1,2,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",Mujer,40.0,0,0,15.75,Southampton,0,Sobrevivió
+163,0,3,"Bengtsson, Mr. John Viktor",Hombre,26.0,0,0,7.775,Southampton,0,No sobrevivió
+164,0,3,"Calic, Mr. Jovo",Hombre,17.0,0,0,8.6625,Southampton,0,No sobrevivió
+165,0,3,"Panula, Master. Eino Viljami",Hombre,1.0,4,1,39.6875,Southampton,0,No sobrevivió
+166,1,3,"Goldsmith, Master. Frank John William ""Frankie""",Hombre,9.0,0,2,20.525,Southampton,0,Sobrevivió
+167,1,1,"Chibnall, Mrs. (Edith Martha Bowerman)",Mujer,35.0,0,1,55.0,Southampton,1,Sobrevivió
+168,0,3,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",Mujer,45.0,1,4,27.9,Southampton,0,No sobrevivió
+169,0,1,"Baumann, Mr. John D",Hombre,40.0,0,0,25.925,Southampton,0,No sobrevivió
+170,0,3,"Ling, Mr. Lee",Hombre,28.0,0,0,56.4958,Southampton,0,No sobrevivió
+171,0,1,"Van der hoef, Mr. Wyckoff",Hombre,61.0,0,0,33.5,Southampton,1,No sobrevivió
+172,0,3,"Rice, Master. Arthur",Hombre,4.0,4,1,29.125,Queenstown,0,No sobrevivió
+173,1,3,"Johnson, Miss. Eleanor Ileen",Mujer,1.0,1,1,11.1333,Southampton,0,Sobrevivió
+174,0,3,"Sivola, Mr. Antti Wilhelm",Hombre,21.0,0,0,7.925,Southampton,0,No sobrevivió
+175,0,1,"Smith, Mr. James Clinch",Hombre,56.0,0,0,30.6958,Cherbourg,1,No sobrevivió
+176,0,3,"Klasen, Mr. Klas Albin",Hombre,18.0,1,1,7.8542,Southampton,0,No sobrevivió
+177,0,3,"Lefebre, Master. Henry Forbes",Hombre,25.0,3,1,25.4667,Southampton,0,No sobrevivió
+178,0,1,"Isham, Miss. Ann Elizabeth",Mujer,50.0,0,0,28.7125,Cherbourg,1,No sobrevivió
+179,0,2,"Hale, Mr. Reginald",Hombre,30.0,0,0,13.0,Southampton,0,No sobrevivió
+180,0,3,"Leonard, Mr. Lionel",Hombre,36.0,0,0,0.0,Southampton,0,No sobrevivió
+181,0,3,"Sage, Miss. Constance Gladys",Mujer,21.5,8,2,69.55,Southampton,0,No sobrevivió
+182,0,2,"Pernot, Mr. Rene",Hombre,30.0,0,0,15.05,Cherbourg,0,No sobrevivió
+183,0,3,"Asplund, Master. Clarence Gustaf Hugo",Hombre,9.0,4,2,31.3875,Southampton,0,No sobrevivió
+184,1,2,"Becker, Master. Richard F",Hombre,1.0,2,1,39.0,Southampton,1,Sobrevivió
+185,1,3,"Kink-Heilmann, Miss. Luise Gretchen",Mujer,4.0,0,2,22.025,Southampton,0,Sobrevivió
+186,0,1,"Rood, Mr. Hugh Roscoe",Hombre,40.0,0,0,50.0,Southampton,1,No sobrevivió
+187,1,3,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",Mujer,21.5,1,0,15.5,Queenstown,0,Sobrevivió
+188,1,1,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",Hombre,45.0,0,0,26.55,Southampton,0,Sobrevivió
+189,0,3,"Bourke, Mr. John",Hombre,40.0,1,1,15.5,Queenstown,0,No sobrevivió
+190,0,3,"Turcin, Mr. Stjepan",Hombre,36.0,0,0,7.8958,Southampton,0,No sobrevivió
+191,1,2,"Pinsky, Mrs. (Rosa)",Mujer,32.0,0,0,13.0,Southampton,0,Sobrevivió
+192,0,2,"Carbines, Mr. William",Hombre,19.0,0,0,13.0,Southampton,0,No sobrevivió
+193,1,3,"Andersen-Jensen, Miss. Carla Christine Nielsine",Mujer,19.0,1,0,7.8542,Southampton,0,Sobrevivió
+194,1,2,"Navratil, Master. Michel M",Hombre,3.0,1,1,26.0,Southampton,1,Sobrevivió
+195,1,1,"Brown, Mrs. James Joseph (Margaret Tobin)",Mujer,44.0,0,0,27.7208,Cherbourg,1,Sobrevivió
+196,1,1,"Lurette, Miss. Elise",Mujer,58.0,0,0,146.5208,Cherbourg,1,Sobrevivió
+197,0,3,"Mernagh, Mr. Robert",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+198,0,3,"Olsen, Mr. Karl Siegwart Andreas",Hombre,42.0,0,1,8.4042,Southampton,0,No sobrevivió
+199,1,3,"Madigan, Miss. Margaret ""Maggie""",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+200,0,2,"Yrois, Miss. Henriette (""Mrs Harbeck"")",Mujer,24.0,0,0,13.0,Southampton,0,No sobrevivió
+201,0,3,"Vande Walle, Mr. Nestor Cyriel",Hombre,28.0,0,0,9.5,Southampton,0,No sobrevivió
+202,0,3,"Sage, Mr. Frederick",Hombre,25.0,8,2,69.55,Southampton,0,No sobrevivió
+203,0,3,"Johanson, Mr. Jakob Alfred",Hombre,34.0,0,0,6.4958,Southampton,0,No sobrevivió
+204,0,3,"Youseff, Mr. Gerious",Hombre,45.5,0,0,7.225,Cherbourg,0,No sobrevivió
+205,1,3,"Cohen, Mr. Gurshon ""Gus""",Hombre,18.0,0,0,8.05,Southampton,0,Sobrevivió
+206,0,3,"Strom, Miss. Telma Matilda",Mujer,2.0,0,1,10.4625,Southampton,1,No sobrevivió
+207,0,3,"Backstrom, Mr. Karl Alfred",Hombre,32.0,1,0,15.85,Southampton,0,No sobrevivió
+208,1,3,"Albimona, Mr. Nassef Cassem",Hombre,26.0,0,0,18.7875,Cherbourg,0,Sobrevivió
+209,1,3,"Carr, Miss. Helen ""Ellen""",Mujer,16.0,0,0,7.75,Queenstown,0,Sobrevivió
+210,1,1,"Blank, Mr. Henry",Hombre,40.0,0,0,31.0,Cherbourg,1,Sobrevivió
+211,0,3,"Ali, Mr. Ahmed",Hombre,24.0,0,0,7.05,Southampton,0,No sobrevivió
+212,1,2,"Cameron, Miss. Clear Annie",Mujer,35.0,0,0,21.0,Southampton,0,Sobrevivió
+213,0,3,"Perkin, Mr. John Henry",Hombre,22.0,0,0,7.25,Southampton,0,No sobrevivió
+214,0,2,"Givard, Mr. Hans Kristensen",Hombre,30.0,0,0,13.0,Southampton,0,No sobrevivió
+215,0,3,"Kiernan, Mr. Philip",Hombre,25.0,1,0,7.75,Queenstown,0,No sobrevivió
+216,1,1,"Newell, Miss. Madeleine",Mujer,31.0,1,0,113.275,Cherbourg,1,Sobrevivió
+217,1,3,"Honkanen, Miss. Eliina",Mujer,27.0,0,0,7.925,Southampton,0,Sobrevivió
+218,0,2,"Jacobsohn, Mr. Sidney Samuel",Hombre,42.0,1,0,27.0,Southampton,0,No sobrevivió
+219,1,1,"Bazzani, Miss. Albina",Mujer,32.0,0,0,76.2917,Cherbourg,1,Sobrevivió
+220,0,2,"Harris, Mr. Walter",Hombre,30.0,0,0,10.5,Southampton,0,No sobrevivió
+221,1,3,"Sunderland, Mr. Victor Francis",Hombre,16.0,0,0,8.05,Southampton,0,Sobrevivió
+222,0,2,"Bracken, Mr. James H",Hombre,27.0,0,0,13.0,Southampton,0,No sobrevivió
+223,0,3,"Green, Mr. George Henry",Hombre,51.0,0,0,8.05,Southampton,0,No sobrevivió
+224,0,3,"Nenkoff, Mr. Christo",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+225,1,1,"Hoyt, Mr. Frederick Maxfield",Hombre,38.0,1,0,90.0,Southampton,1,Sobrevivió
+226,0,3,"Berglund, Mr. Karl Ivar Sven",Hombre,22.0,0,0,9.35,Southampton,0,No sobrevivió
+227,1,2,"Mellors, Mr. William John",Hombre,19.0,0,0,10.5,Southampton,0,Sobrevivió
+228,0,3,"Lovell, Mr. John Hall (""Henry"")",Hombre,20.5,0,0,7.25,Southampton,0,No sobrevivió
+229,0,2,"Fahlstrom, Mr. Arne Jonas",Hombre,18.0,0,0,13.0,Southampton,0,No sobrevivió
+230,0,3,"Lefebre, Miss. Mathilde",Mujer,21.5,3,1,25.4667,Southampton,0,No sobrevivió
+231,1,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",Mujer,35.0,1,0,83.475,Southampton,1,Sobrevivió
+232,0,3,"Larsson, Mr. Bengt Edvin",Hombre,29.0,0,0,7.775,Southampton,0,No sobrevivió
+233,0,2,"Sjostedt, Mr. Ernst Adolf",Hombre,59.0,0,0,13.5,Southampton,0,No sobrevivió
+234,1,3,"Asplund, Miss. Lillian Gertrud",Mujer,5.0,4,2,31.3875,Southampton,0,Sobrevivió
+235,0,2,"Leyson, Mr. Robert William Norman",Hombre,24.0,0,0,10.5,Southampton,0,No sobrevivió
+236,0,3,"Harknett, Miss. Alice Phoebe",Mujer,21.5,0,0,7.55,Southampton,0,No sobrevivió
+237,0,2,"Hold, Mr. Stephen",Hombre,44.0,1,0,26.0,Southampton,0,No sobrevivió
+238,1,2,"Collyer, Miss. Marjorie ""Lottie""",Mujer,8.0,0,2,26.25,Southampton,0,Sobrevivió
+239,0,2,"Pengelly, Mr. Frederick William",Hombre,19.0,0,0,10.5,Southampton,0,No sobrevivió
+240,0,2,"Hunt, Mr. George Henry",Hombre,33.0,0,0,12.275,Southampton,0,No sobrevivió
+241,0,3,"Zabour, Miss. Thamine",Mujer,21.5,1,0,14.4542,Cherbourg,0,No sobrevivió
+242,1,3,"Murphy, Miss. Katherine ""Kate""",Mujer,21.5,1,0,15.5,Queenstown,0,Sobrevivió
+243,0,2,"Coleridge, Mr. Reginald Charles",Hombre,29.0,0,0,10.5,Southampton,0,No sobrevivió
+244,0,3,"Maenpaa, Mr. Matti Alexanteri",Hombre,22.0,0,0,7.125,Southampton,0,No sobrevivió
+245,0,3,"Attalah, Mr. Sleiman",Hombre,30.0,0,0,7.225,Cherbourg,0,No sobrevivió
+246,0,1,"Minahan, Dr. William Edward",Hombre,44.0,2,0,90.0,Queenstown,1,No sobrevivió
+247,0,3,"Lindahl, Miss. Agda Thorilda Viktoria",Mujer,25.0,0,0,7.775,Southampton,0,No sobrevivió
+248,1,2,"Hamalainen, Mrs. William (Anna)",Mujer,24.0,0,2,14.5,Southampton,0,Sobrevivió
+249,1,1,"Beckwith, Mr. Richard Leonard",Hombre,37.0,1,1,52.5542,Southampton,1,Sobrevivió
+250,0,2,"Carter, Rev. Ernest Courtenay",Hombre,54.0,1,0,26.0,Southampton,0,No sobrevivió
+251,0,3,"Reed, Mr. James George",Hombre,25.0,0,0,7.25,Southampton,0,No sobrevivió
+252,0,3,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",Mujer,29.0,1,1,10.4625,Southampton,1,No sobrevivió
+253,0,1,"Stead, Mr. William Thomas",Hombre,62.0,0,0,26.55,Southampton,1,No sobrevivió
+254,0,3,"Lobb, Mr. William Arthur",Hombre,30.0,1,0,16.1,Southampton,0,No sobrevivió
+255,0,3,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",Mujer,41.0,0,2,20.2125,Southampton,0,No sobrevivió
+256,1,3,"Touma, Mrs. Darwis (Hanne Youssef Razi)",Mujer,29.0,0,2,15.2458,Cherbourg,0,Sobrevivió
+257,1,1,"Thorne, Mrs. Gertrude Maybelle",Mujer,35.0,0,0,79.2,Cherbourg,0,Sobrevivió
+258,1,1,"Cherry, Miss. Gladys",Mujer,30.0,0,0,86.5,Southampton,1,Sobrevivió
+259,1,1,"Ward, Miss. Anna",Mujer,35.0,0,0,512.3292,Cherbourg,0,Sobrevivió
+260,1,2,"Parrish, Mrs. (Lutie Davis)",Mujer,50.0,0,1,26.0,Southampton,0,Sobrevivió
+261,0,3,"Smith, Mr. Thomas",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+262,1,3,"Asplund, Master. Edvin Rojj Felix",Hombre,3.0,4,2,31.3875,Southampton,0,Sobrevivió
+263,0,1,"Taussig, Mr. Emil",Hombre,52.0,1,1,79.65,Southampton,1,No sobrevivió
+264,0,1,"Harrison, Mr. William",Hombre,40.0,0,0,0.0,Southampton,1,No sobrevivió
+265,0,3,"Henry, Miss. Delia",Mujer,21.5,0,0,7.75,Queenstown,0,No sobrevivió
+266,0,2,"Reeves, Mr. David",Hombre,36.0,0,0,10.5,Southampton,0,No sobrevivió
+267,0,3,"Panula, Mr. Ernesti Arvid",Hombre,16.0,4,1,39.6875,Southampton,0,No sobrevivió
+268,1,3,"Persson, Mr. Ernst Ulrik",Hombre,25.0,1,0,7.775,Southampton,0,Sobrevivió
+269,1,1,"Graham, Mrs. William Thompson (Edith Junkins)",Mujer,58.0,0,1,153.4625,Southampton,1,Sobrevivió
+270,1,1,"Bissette, Miss. Amelia",Mujer,35.0,0,0,135.6333,Southampton,1,Sobrevivió
+271,0,1,"Cairns, Mr. Alexander",Hombre,40.0,0,0,31.0,Southampton,0,No sobrevivió
+272,1,3,"Tornquist, Mr. William Henry",Hombre,25.0,0,0,0.0,Southampton,0,Sobrevivió
+273,1,2,"Mellinger, Mrs. (Elizabeth Anne Maidment)",Mujer,41.0,0,1,19.5,Southampton,0,Sobrevivió
+274,0,1,"Natsch, Mr. Charles H",Hombre,37.0,0,1,29.7,Cherbourg,1,No sobrevivió
+275,1,3,"Healy, Miss. Hanora ""Nora""",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+276,1,1,"Andrews, Miss. Kornelia Theodosia",Mujer,63.0,1,0,77.9583,Southampton,1,Sobrevivió
+277,0,3,"Lindblom, Miss. Augusta Charlotta",Mujer,45.0,0,0,7.75,Southampton,0,No sobrevivió
+278,0,2,"Parkes, Mr. Francis ""Frank""",Hombre,30.0,0,0,0.0,Southampton,0,No sobrevivió
+279,0,3,"Rice, Master. Eric",Hombre,7.0,4,1,29.125,Queenstown,0,No sobrevivió
+280,1,3,"Abbott, Mrs. Stanton (Rosa Hunt)",Mujer,35.0,1,1,20.25,Southampton,0,Sobrevivió
+281,0,3,"Duane, Mr. Frank",Hombre,65.0,0,0,7.75,Queenstown,0,No sobrevivió
+282,0,3,"Olsson, Mr. Nils Johan Goransson",Hombre,28.0,0,0,7.8542,Southampton,0,No sobrevivió
+283,0,3,"de Pelsmaeker, Mr. Alfons",Hombre,16.0,0,0,9.5,Southampton,0,No sobrevivió
+284,1,3,"Dorking, Mr. Edward Arthur",Hombre,19.0,0,0,8.05,Southampton,0,Sobrevivió
+285,0,1,"Smith, Mr. Richard William",Hombre,40.0,0,0,26.0,Southampton,1,No sobrevivió
+286,0,3,"Stankovic, Mr. Ivan",Hombre,33.0,0,0,8.6625,Cherbourg,0,No sobrevivió
+287,1,3,"de Mulder, Mr. Theodore",Hombre,30.0,0,0,9.5,Southampton,0,Sobrevivió
+288,0,3,"Naidenoff, Mr. Penko",Hombre,22.0,0,0,7.8958,Southampton,0,No sobrevivió
+289,1,2,"Hosono, Mr. Masabumi",Hombre,42.0,0,0,13.0,Southampton,0,Sobrevivió
+290,1,3,"Connolly, Miss. Kate",Mujer,22.0,0,0,7.75,Queenstown,0,Sobrevivió
+291,1,1,"Barber, Miss. Ellen ""Nellie""",Mujer,26.0,0,0,78.85,Southampton,0,Sobrevivió
+292,1,1,"Bishop, Mrs. Dickinson H (Helen Walton)",Mujer,19.0,1,0,91.0792,Cherbourg,1,Sobrevivió
+293,0,2,"Levy, Mr. Rene Jacques",Hombre,36.0,0,0,12.875,Cherbourg,1,No sobrevivió
+294,0,3,"Haas, Miss. Aloisia",Mujer,24.0,0,0,8.85,Southampton,0,No sobrevivió
+295,0,3,"Mineff, Mr. Ivan",Hombre,24.0,0,0,7.8958,Southampton,0,No sobrevivió
+296,0,1,"Lewy, Mr. Ervin G",Hombre,40.0,0,0,27.7208,Cherbourg,0,No sobrevivió
+297,0,3,"Hanna, Mr. Mansour",Hombre,23.5,0,0,7.2292,Cherbourg,0,No sobrevivió
+298,0,1,"Allison, Miss. Helen Loraine",Mujer,2.0,1,2,151.55,Southampton,1,No sobrevivió
+299,1,1,"Saalfeld, Mr. Adolphe",Hombre,40.0,0,0,30.5,Southampton,1,Sobrevivió
+300,1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",Mujer,50.0,0,1,247.5208,Cherbourg,1,Sobrevivió
+301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+302,1,3,"McCoy, Mr. Bernard",Hombre,25.0,2,0,23.25,Queenstown,0,Sobrevivió
+303,0,3,"Johnson, Mr. William Cahoone Jr",Hombre,19.0,0,0,0.0,Southampton,0,No sobrevivió
+304,1,2,"Keane, Miss. Nora A",Mujer,28.0,0,0,12.35,Queenstown,1,Sobrevivió
+305,0,3,"Williams, Mr. Howard Hugh ""Harry""",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+306,1,1,"Allison, Master. Hudson Trevor",Hombre,0.92,1,2,151.55,Southampton,1,Sobrevivió
+307,1,1,"Fleming, Miss. Margaret",Mujer,35.0,0,0,110.8833,Cherbourg,0,Sobrevivió
+308,1,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",Mujer,17.0,1,0,108.9,Cherbourg,1,Sobrevivió
+309,0,2,"Abelson, Mr. Samuel",Hombre,30.0,1,0,24.0,Cherbourg,0,No sobrevivió
+310,1,1,"Francatelli, Miss. Laura Mabel",Mujer,30.0,0,0,56.9292,Cherbourg,1,Sobrevivió
+311,1,1,"Hays, Miss. Margaret Bechstein",Mujer,24.0,0,0,83.1583,Cherbourg,1,Sobrevivió
+312,1,1,"Ryerson, Miss. Emily Borie",Mujer,18.0,2,2,262.375,Cherbourg,1,Sobrevivió
+313,0,2,"Lahtinen, Mrs. William (Anna Sylfven)",Mujer,26.0,1,1,26.0,Southampton,0,No sobrevivió
+314,0,3,"Hendekovic, Mr. Ignjac",Hombre,28.0,0,0,7.8958,Southampton,0,No sobrevivió
+315,0,2,"Hart, Mr. Benjamin",Hombre,43.0,1,1,26.25,Southampton,0,No sobrevivió
+316,1,3,"Nilsson, Miss. Helmina Josefina",Mujer,26.0,0,0,7.8542,Southampton,0,Sobrevivió
+317,1,2,"Kantor, Mrs. Sinai (Miriam Sternin)",Mujer,24.0,1,0,26.0,Southampton,0,Sobrevivió
+318,0,2,"Moraweck, Dr. Ernest",Hombre,54.0,0,0,14.0,Southampton,0,No sobrevivió
+319,1,1,"Wick, Miss. Mary Natalie",Mujer,31.0,0,2,164.8667,Southampton,1,Sobrevivió
+320,1,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",Mujer,40.0,1,1,134.5,Cherbourg,1,Sobrevivió
+321,0,3,"Dennis, Mr. Samuel",Hombre,22.0,0,0,7.25,Southampton,0,No sobrevivió
+322,0,3,"Danoff, Mr. Yoto",Hombre,27.0,0,0,7.8958,Southampton,0,No sobrevivió
+323,1,2,"Slayter, Miss. Hilda Mary",Mujer,30.0,0,0,12.35,Queenstown,0,Sobrevivió
+324,1,2,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",Mujer,22.0,1,1,29.0,Southampton,0,Sobrevivió
+325,0,3,"Sage, Mr. George John Jr",Hombre,25.0,8,2,69.55,Southampton,0,No sobrevivió
+326,1,1,"Young, Miss. Marie Grice",Mujer,36.0,0,0,135.6333,Cherbourg,1,Sobrevivió
+327,0,3,"Nysveen, Mr. Johan Hansen",Hombre,61.0,0,0,6.2375,Southampton,0,No sobrevivió
+328,1,2,"Ball, Mrs. (Ada E Hall)",Mujer,36.0,0,0,13.0,Southampton,1,Sobrevivió
+329,1,3,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",Mujer,31.0,1,1,20.525,Southampton,0,Sobrevivió
+330,1,1,"Hippach, Miss. Jean Gertrude",Mujer,16.0,0,1,57.9792,Cherbourg,1,Sobrevivió
+331,1,3,"McCoy, Miss. Agnes",Mujer,21.5,2,0,23.25,Queenstown,0,Sobrevivió
+332,0,1,"Partner, Mr. Austen",Hombre,45.5,0,0,28.5,Southampton,1,No sobrevivió
+333,0,1,"Graham, Mr. George Edward",Hombre,38.0,0,1,153.4625,Southampton,1,No sobrevivió
+334,0,3,"Vander Planke, Mr. Leo Edmondus",Hombre,16.0,2,0,18.0,Southampton,0,No sobrevivió
+335,1,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",Mujer,35.0,1,0,133.65,Southampton,0,Sobrevivió
+336,0,3,"Denkoff, Mr. Mitto",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+337,0,1,"Pears, Mr. Thomas Clinton",Hombre,29.0,1,0,66.6,Southampton,1,No sobrevivió
+338,1,1,"Burns, Miss. Elizabeth Margaret",Mujer,41.0,0,0,134.5,Cherbourg,1,Sobrevivió
+339,1,3,"Dahl, Mr. Karl Edwart",Hombre,45.0,0,0,8.05,Southampton,0,Sobrevivió
+340,0,1,"Blackwell, Mr. Stephen Weart",Hombre,45.0,0,0,35.5,Southampton,1,No sobrevivió
+341,1,2,"Navratil, Master. Edmond Roger",Hombre,2.0,1,1,26.0,Southampton,1,Sobrevivió
+342,1,1,"Fortune, Miss. Alice Elizabeth",Mujer,24.0,3,2,263.0,Southampton,1,Sobrevivió
+343,0,2,"Collander, Mr. Erik Gustaf",Hombre,28.0,0,0,13.0,Southampton,0,No sobrevivió
+344,0,2,"Sedgwick, Mr. Charles Frederick Waddington",Hombre,25.0,0,0,13.0,Southampton,0,No sobrevivió
+345,0,2,"Fox, Mr. Stanley Hubert",Hombre,36.0,0,0,13.0,Southampton,0,No sobrevivió
+346,1,2,"Brown, Miss. Amelia ""Mildred""",Mujer,24.0,0,0,13.0,Southampton,1,Sobrevivió
+347,1,2,"Smith, Miss. Marion Elsie",Mujer,40.0,0,0,13.0,Southampton,0,Sobrevivió
+348,1,3,"Davison, Mrs. Thomas Henry (Mary E Finck)",Mujer,21.5,1,0,16.1,Southampton,0,Sobrevivió
+349,1,3,"Coutts, Master. William Loch ""William""",Hombre,3.0,1,1,15.9,Southampton,0,Sobrevivió
+350,0,3,"Dimic, Mr. Jovan",Hombre,42.0,0,0,8.6625,Southampton,0,No sobrevivió
+351,0,3,"Odahl, Mr. Nils Martin",Hombre,23.0,0,0,9.225,Southampton,0,No sobrevivió
+352,0,1,"Williams-Lambert, Mr. Fletcher Fellows",Hombre,40.0,0,0,35.0,Southampton,1,No sobrevivió
+353,0,3,"Elias, Mr. Tannous",Hombre,15.0,1,1,7.2292,Cherbourg,0,No sobrevivió
+354,0,3,"Arnold-Franchi, Mr. Josef",Hombre,25.0,1,0,17.8,Southampton,0,No sobrevivió
+355,0,3,"Yousif, Mr. Wazli",Hombre,25.0,0,0,7.225,Cherbourg,0,No sobrevivió
+356,0,3,"Vanden Steen, Mr. Leo Peter",Hombre,28.0,0,0,9.5,Southampton,0,No sobrevivió
+357,1,1,"Bowerman, Miss. Elsie Edith",Mujer,22.0,0,1,55.0,Southampton,1,Sobrevivió
+358,0,2,"Funk, Miss. Annie Clemmer",Mujer,38.0,0,0,13.0,Southampton,0,No sobrevivió
+359,1,3,"McGovern, Miss. Mary",Mujer,21.5,0,0,7.8792,Queenstown,0,Sobrevivió
+360,1,3,"Mockler, Miss. Helen Mary ""Ellie""",Mujer,21.5,0,0,7.8792,Queenstown,0,Sobrevivió
+361,0,3,"Skoog, Mr. Wilhelm",Hombre,40.0,1,4,27.9,Southampton,0,No sobrevivió
+362,0,2,"del Carlo, Mr. Sebastiano",Hombre,29.0,1,0,27.7208,Cherbourg,0,No sobrevivió
+363,0,3,"Barbara, Mrs. (Catherine David)",Mujer,45.0,0,1,14.4542,Cherbourg,0,No sobrevivió
+364,0,3,"Asim, Mr. Adola",Hombre,35.0,0,0,7.05,Southampton,0,No sobrevivió
+365,0,3,"O'Brien, Mr. Thomas",Hombre,25.0,1,0,15.5,Queenstown,0,No sobrevivió
+366,0,3,"Adahl, Mr. Mauritz Nils Martin",Hombre,30.0,0,0,7.25,Southampton,0,No sobrevivió
+367,1,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",Mujer,60.0,1,0,75.25,Cherbourg,1,Sobrevivió
+368,1,3,"Moussa, Mrs. (Mantoura Boulos)",Mujer,21.5,0,0,7.2292,Cherbourg,0,Sobrevivió
+369,1,3,"Jermyn, Miss. Annie",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+370,1,1,"Aubart, Mme. Leontine Pauline",Mujer,24.0,0,0,69.3,Cherbourg,1,Sobrevivió
+371,1,1,"Harder, Mr. George Achilles",Hombre,25.0,1,0,55.4417,Cherbourg,1,Sobrevivió
+372,0,3,"Wiklund, Mr. Jakob Alfred",Hombre,18.0,1,0,6.4958,Southampton,0,No sobrevivió
+373,0,3,"Beavan, Mr. William Thomas",Hombre,19.0,0,0,8.05,Southampton,0,No sobrevivió
+374,0,1,"Ringhini, Mr. Sante",Hombre,22.0,0,0,135.6333,Cherbourg,0,No sobrevivió
+375,0,3,"Palsson, Miss. Stina Viola",Mujer,3.0,3,1,21.075,Southampton,0,No sobrevivió
+376,1,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",Mujer,35.0,1,0,82.1708,Cherbourg,0,Sobrevivió
+377,1,3,"Landergren, Miss. Aurora Adelia",Mujer,22.0,0,0,7.25,Southampton,0,Sobrevivió
+378,0,1,"Widener, Mr. Harry Elkins",Hombre,27.0,0,2,211.5,Cherbourg,1,No sobrevivió
+379,0,3,"Betros, Mr. Tannous",Hombre,20.0,0,0,4.0125,Cherbourg,0,No sobrevivió
+380,0,3,"Gustafsson, Mr. Karl Gideon",Hombre,19.0,0,0,7.775,Southampton,0,No sobrevivió
+381,1,1,"Bidois, Miss. Rosalie",Mujer,42.0,0,0,227.525,Cherbourg,0,Sobrevivió
+382,1,3,"Nakid, Miss. Maria (""Mary"")",Mujer,1.0,0,2,15.7417,Cherbourg,0,Sobrevivió
+383,0,3,"Tikkanen, Mr. Juho",Hombre,32.0,0,0,7.925,Southampton,0,No sobrevivió
+384,1,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",Mujer,35.0,1,0,52.0,Southampton,0,Sobrevivió
+385,0,3,"Plotcharsky, Mr. Vasil",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+386,0,2,"Davies, Mr. Charles Henry",Hombre,18.0,0,0,73.5,Southampton,0,No sobrevivió
+387,0,3,"Goodwin, Master. Sidney Leonard",Hombre,1.0,5,2,46.9,Southampton,0,No sobrevivió
+388,1,2,"Buss, Miss. Kate",Mujer,36.0,0,0,13.0,Southampton,0,Sobrevivió
+389,0,3,"Sadlier, Mr. Matthew",Hombre,25.0,0,0,7.7292,Queenstown,0,No sobrevivió
+390,1,2,"Lehmann, Miss. Bertha",Mujer,17.0,0,0,12.0,Cherbourg,0,Sobrevivió
+391,1,1,"Carter, Mr. William Ernest",Hombre,36.0,1,2,120.0,Southampton,1,Sobrevivió
+392,1,3,"Jansson, Mr. Carl Olof",Hombre,21.0,0,0,7.7958,Southampton,0,Sobrevivió
+393,0,3,"Gustafsson, Mr. Johan Birger",Hombre,28.0,2,0,7.925,Southampton,0,No sobrevivió
+394,1,1,"Newell, Miss. Marjorie",Mujer,23.0,1,0,113.275,Cherbourg,1,Sobrevivió
+395,1,3,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",Mujer,24.0,0,2,16.7,Southampton,1,Sobrevivió
+396,0,3,"Johansson, Mr. Erik",Hombre,22.0,0,0,7.7958,Southampton,0,No sobrevivió
+397,0,3,"Olsson, Miss. Elina",Mujer,31.0,0,0,7.8542,Southampton,0,No sobrevivió
+398,0,2,"McKane, Mr. Peter David",Hombre,46.0,0,0,26.0,Southampton,0,No sobrevivió
+399,0,2,"Pain, Dr. Alfred",Hombre,23.0,0,0,10.5,Southampton,0,No sobrevivió
+400,1,2,"Trout, Mrs. William H (Jessie L)",Mujer,28.0,0,0,12.65,Southampton,0,Sobrevivió
+401,1,3,"Niskanen, Mr. Juha",Hombre,39.0,0,0,7.925,Southampton,0,Sobrevivió
+402,0,3,"Adams, Mr. John",Hombre,26.0,0,0,8.05,Southampton,0,No sobrevivió
+403,0,3,"Jussila, Miss. Mari Aina",Mujer,21.0,1,0,9.825,Southampton,0,No sobrevivió
+404,0,3,"Hakkarainen, Mr. Pekka Pietari",Hombre,28.0,1,0,15.85,Southampton,0,No sobrevivió
+405,0,3,"Oreskovic, Miss. Marija",Mujer,20.0,0,0,8.6625,Southampton,0,No sobrevivió
+406,0,2,"Gale, Mr. Shadrach",Hombre,34.0,1,0,21.0,Southampton,0,No sobrevivió
+407,0,3,"Widegren, Mr. Carl/Charles Peter",Hombre,51.0,0,0,7.75,Southampton,0,No sobrevivió
+408,1,2,"Richards, Master. William Rowe",Hombre,3.0,1,1,18.75,Southampton,0,Sobrevivió
+409,0,3,"Birkeland, Mr. Hans Martin Monsen",Hombre,21.0,0,0,7.775,Southampton,0,No sobrevivió
+410,0,3,"Lefebre, Miss. Ida",Mujer,21.5,3,1,25.4667,Southampton,0,No sobrevivió
+411,0,3,"Sdycoff, Mr. Todor",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+412,0,3,"Hart, Mr. Henry",Hombre,25.0,0,0,6.8583,Queenstown,0,No sobrevivió
+413,1,1,"Minahan, Miss. Daisy E",Mujer,33.0,1,0,90.0,Queenstown,1,Sobrevivió
+414,0,2,"Cunningham, Mr. Alfred Fleming",Hombre,30.0,0,0,0.0,Southampton,0,No sobrevivió
+415,1,3,"Sundman, Mr. Johan Julian",Hombre,44.0,0,0,7.925,Southampton,0,Sobrevivió
+416,0,3,"Meek, Mrs. Thomas (Annie Louise Rowley)",Mujer,21.5,0,0,8.05,Southampton,0,No sobrevivió
+417,1,2,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",Mujer,34.0,1,1,32.5,Southampton,0,Sobrevivió
+418,1,2,"Silven, Miss. Lyyli Karoliina",Mujer,18.0,0,2,13.0,Southampton,0,Sobrevivió
+419,0,2,"Matthews, Mr. William John",Hombre,30.0,0,0,13.0,Southampton,0,No sobrevivió
+420,0,3,"Van Impe, Miss. Catharina",Mujer,10.0,0,2,24.15,Southampton,0,No sobrevivió
+421,0,3,"Gheorgheff, Mr. Stanio",Hombre,25.0,0,0,7.8958,Cherbourg,0,No sobrevivió
+422,0,3,"Charters, Mr. David",Hombre,21.0,0,0,7.7333,Queenstown,0,No sobrevivió
+423,0,3,"Zimmerman, Mr. Leo",Hombre,29.0,0,0,7.875,Southampton,0,No sobrevivió
+424,0,3,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",Mujer,28.0,1,1,14.4,Southampton,0,No sobrevivió
+425,0,3,"Rosblom, Mr. Viktor Richard",Hombre,18.0,1,1,20.2125,Southampton,0,No sobrevivió
+426,0,3,"Wiseman, Mr. Phillippe",Hombre,25.0,0,0,7.25,Southampton,0,No sobrevivió
+427,1,2,"Clarke, Mrs. Charles V (Ada Maria Winfield)",Mujer,28.0,1,0,26.0,Southampton,0,Sobrevivió
+428,1,2,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",Mujer,19.0,0,0,26.0,Southampton,0,Sobrevivió
+429,0,3,"Flynn, Mr. James",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+430,1,3,"Pickard, Mr. Berk (Berk Trembisky)",Hombre,32.0,0,0,8.05,Southampton,1,Sobrevivió
+431,1,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",Hombre,28.0,0,0,26.55,Southampton,1,Sobrevivió
+432,1,3,"Thorneycroft, Mrs. Percival (Florence Kate White)",Mujer,21.5,1,0,16.1,Southampton,0,Sobrevivió
+433,1,2,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",Mujer,42.0,1,0,26.0,Southampton,0,Sobrevivió
+434,0,3,"Kallio, Mr. Nikolai Erland",Hombre,17.0,0,0,7.125,Southampton,0,No sobrevivió
+435,0,1,"Silvey, Mr. William Baird",Hombre,50.0,1,0,55.9,Southampton,1,No sobrevivió
+436,1,1,"Carter, Miss. Lucile Polk",Mujer,14.0,1,2,120.0,Southampton,1,Sobrevivió
+437,0,3,"Ford, Miss. Doolina Margaret ""Daisy""",Mujer,21.0,2,2,34.375,Southampton,0,No sobrevivió
+438,1,2,"Richards, Mrs. Sidney (Emily Hocking)",Mujer,24.0,2,3,18.75,Southampton,0,Sobrevivió
+439,0,1,"Fortune, Mr. Mark",Hombre,64.0,1,4,263.0,Southampton,1,No sobrevivió
+440,0,2,"Kvillner, Mr. Johan Henrik Johannesson",Hombre,31.0,0,0,10.5,Southampton,0,No sobrevivió
+441,1,2,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",Mujer,45.0,1,1,26.25,Southampton,0,Sobrevivió
+442,0,3,"Hampe, Mr. Leon",Hombre,20.0,0,0,9.5,Southampton,0,No sobrevivió
+443,0,3,"Petterson, Mr. Johan Emil",Hombre,25.0,1,0,7.775,Southampton,0,No sobrevivió
+444,1,2,"Reynaldo, Ms. Encarnacion",Mujer,28.0,0,0,13.0,Southampton,0,Sobrevivió
+445,1,3,"Johannesen-Bratthammer, Mr. Bernt",Hombre,25.0,0,0,8.1125,Southampton,0,Sobrevivió
+446,1,1,"Dodge, Master. Washington",Hombre,4.0,0,2,81.8583,Southampton,1,Sobrevivió
+447,1,2,"Mellinger, Miss. Madeleine Violet",Mujer,13.0,0,1,19.5,Southampton,0,Sobrevivió
+448,1,1,"Seward, Mr. Frederic Kimber",Hombre,34.0,0,0,26.55,Southampton,0,Sobrevivió
+449,1,3,"Baclini, Miss. Marie Catherine",Mujer,5.0,2,1,19.2583,Cherbourg,0,Sobrevivió
+450,1,1,"Peuchen, Major. Arthur Godfrey",Hombre,52.0,0,0,30.5,Southampton,1,Sobrevivió
+451,0,2,"West, Mr. Edwy Arthur",Hombre,36.0,1,2,27.75,Southampton,0,No sobrevivió
+452,0,3,"Hagland, Mr. Ingvald Olai Olsen",Hombre,25.0,1,0,19.9667,Southampton,0,No sobrevivió
+453,0,1,"Foreman, Mr. Benjamin Laventall",Hombre,30.0,0,0,27.75,Cherbourg,1,No sobrevivió
+454,1,1,"Goldenberg, Mr. Samuel L",Hombre,49.0,1,0,89.1042,Cherbourg,1,Sobrevivió
+455,0,3,"Peduzzi, Mr. Joseph",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+456,1,3,"Jalsevac, Mr. Ivan",Hombre,29.0,0,0,7.8958,Cherbourg,0,Sobrevivió
+457,0,1,"Millet, Mr. Francis Davis",Hombre,65.0,0,0,26.55,Southampton,1,No sobrevivió
+458,1,1,"Kenyon, Mrs. Frederick R (Marion)",Mujer,35.0,1,0,51.8625,Southampton,1,Sobrevivió
+459,1,2,"Toomey, Miss. Ellen",Mujer,50.0,0,0,10.5,Southampton,0,Sobrevivió
+460,0,3,"O'Connor, Mr. Maurice",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+461,1,1,"Anderson, Mr. Harry",Hombre,48.0,0,0,26.55,Southampton,1,Sobrevivió
+462,0,3,"Morley, Mr. William",Hombre,34.0,0,0,8.05,Southampton,0,No sobrevivió
+463,0,1,"Gee, Mr. Arthur H",Hombre,47.0,0,0,38.5,Southampton,1,No sobrevivió
+464,0,2,"Milling, Mr. Jacob Christian",Hombre,48.0,0,0,13.0,Southampton,0,No sobrevivió
+465,0,3,"Maisner, Mr. Simon",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+466,0,3,"Goncalves, Mr. Manuel Estanslas",Hombre,38.0,0,0,7.05,Southampton,0,No sobrevivió
+467,0,2,"Campbell, Mr. William",Hombre,30.0,0,0,0.0,Southampton,0,No sobrevivió
+468,0,1,"Smart, Mr. John Montgomery",Hombre,56.0,0,0,26.55,Southampton,0,No sobrevivió
+469,0,3,"Scanlan, Mr. James",Hombre,25.0,0,0,7.725,Queenstown,0,No sobrevivió
+470,1,3,"Baclini, Miss. Helene Barbara",Mujer,0.75,2,1,19.2583,Cherbourg,0,Sobrevivió
+471,0,3,"Keefe, Mr. Arthur",Hombre,25.0,0,0,7.25,Southampton,0,No sobrevivió
+472,0,3,"Cacic, Mr. Luka",Hombre,38.0,0,0,8.6625,Southampton,0,No sobrevivió
+473,1,2,"West, Mrs. Edwy Arthur (Ada Mary Worth)",Mujer,33.0,1,2,27.75,Southampton,0,Sobrevivió
+474,1,2,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",Mujer,23.0,0,0,13.7917,Cherbourg,1,Sobrevivió
+475,0,3,"Strandberg, Miss. Ida Sofia",Mujer,22.0,0,0,9.8375,Southampton,0,No sobrevivió
+476,0,1,"Clifford, Mr. George Quincy",Hombre,40.0,0,0,52.0,Southampton,1,No sobrevivió
+477,0,2,"Renouf, Mr. Peter Henry",Hombre,34.0,1,0,21.0,Southampton,0,No sobrevivió
+478,0,3,"Braund, Mr. Lewis Richard",Hombre,29.0,1,0,7.0458,Southampton,0,No sobrevivió
+479,0,3,"Karlsson, Mr. Nils August",Hombre,22.0,0,0,7.5208,Southampton,0,No sobrevivió
+480,1,3,"Hirvonen, Miss. Hildur E",Mujer,2.0,0,1,12.2875,Southampton,0,Sobrevivió
+481,0,3,"Goodwin, Master. Harold Victor",Hombre,9.0,5,2,46.9,Southampton,0,No sobrevivió
+482,0,2,"Frost, Mr. Anthony Wood ""Archie""",Hombre,30.0,0,0,0.0,Southampton,0,No sobrevivió
+483,0,3,"Rouse, Mr. Richard Henry",Hombre,50.0,0,0,8.05,Southampton,0,No sobrevivió
+484,1,3,"Turkula, Mrs. (Hedwig)",Mujer,63.0,0,0,9.5875,Southampton,0,Sobrevivió
+485,1,1,"Bishop, Mr. Dickinson H",Hombre,25.0,1,0,91.0792,Cherbourg,1,Sobrevivió
+486,0,3,"Lefebre, Miss. Jeannie",Mujer,21.5,3,1,25.4667,Southampton,0,No sobrevivió
+487,1,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",Mujer,35.0,1,0,90.0,Southampton,1,Sobrevivió
+488,0,1,"Kent, Mr. Edward Austin",Hombre,58.0,0,0,29.7,Cherbourg,1,No sobrevivió
+489,0,3,"Somerton, Mr. Francis William",Hombre,30.0,0,0,8.05,Southampton,0,No sobrevivió
+490,1,3,"Coutts, Master. Eden Leslie ""Neville""",Hombre,9.0,1,1,15.9,Southampton,0,Sobrevivió
+491,0,3,"Hagland, Mr. Konrad Mathias Reiersen",Hombre,25.0,1,0,19.9667,Southampton,0,No sobrevivió
+492,0,3,"Windelov, Mr. Einar",Hombre,21.0,0,0,7.25,Southampton,0,No sobrevivió
+493,0,1,"Molson, Mr. Harry Markland",Hombre,55.0,0,0,30.5,Southampton,1,No sobrevivió
+494,0,1,"Artagaveytia, Mr. Ramon",Hombre,71.0,0,0,49.5042,Cherbourg,0,No sobrevivió
+495,0,3,"Stanley, Mr. Edward Roland",Hombre,21.0,0,0,8.05,Southampton,0,No sobrevivió
+496,0,3,"Yousseff, Mr. Gerious",Hombre,25.0,0,0,14.4583,Cherbourg,0,No sobrevivió
+497,1,1,"Eustis, Miss. Elizabeth Mussey",Mujer,54.0,1,0,78.2667,Cherbourg,1,Sobrevivió
+498,0,3,"Shellard, Mr. Frederick William",Hombre,25.0,0,0,15.1,Southampton,0,No sobrevivió
+499,0,1,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",Mujer,25.0,1,2,151.55,Southampton,1,No sobrevivió
+500,0,3,"Svensson, Mr. Olof",Hombre,24.0,0,0,7.7958,Southampton,0,No sobrevivió
+501,0,3,"Calic, Mr. Petar",Hombre,17.0,0,0,8.6625,Southampton,0,No sobrevivió
+502,0,3,"Canavan, Miss. Mary",Mujer,21.0,0,0,7.75,Queenstown,0,No sobrevivió
+503,0,3,"O'Sullivan, Miss. Bridget Mary",Mujer,21.5,0,0,7.6292,Queenstown,0,No sobrevivió
+504,0,3,"Laitinen, Miss. Kristina Sofia",Mujer,37.0,0,0,9.5875,Southampton,0,No sobrevivió
+505,1,1,"Maioni, Miss. Roberta",Mujer,16.0,0,0,86.5,Southampton,1,Sobrevivió
+506,0,1,"Penasco y Castellana, Mr. Victor de Satode",Hombre,18.0,1,0,108.9,Cherbourg,1,No sobrevivió
+507,1,2,"Quick, Mrs. Frederick Charles (Jane Richards)",Mujer,33.0,0,2,26.0,Southampton,0,Sobrevivió
+508,1,1,"Bradley, Mr. George (""George Arthur Brayton"")",Hombre,40.0,0,0,26.55,Southampton,0,Sobrevivió
+509,0,3,"Olsen, Mr. Henry Margido",Hombre,28.0,0,0,22.525,Southampton,0,No sobrevivió
+510,1,3,"Lang, Mr. Fang",Hombre,26.0,0,0,56.4958,Southampton,0,Sobrevivió
+511,1,3,"Daly, Mr. Eugene Patrick",Hombre,29.0,0,0,7.75,Queenstown,0,Sobrevivió
+512,0,3,"Webber, Mr. James",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+513,1,1,"McGough, Mr. James Robert",Hombre,36.0,0,0,26.2875,Southampton,1,Sobrevivió
+514,1,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",Mujer,54.0,1,0,59.4,Cherbourg,0,Sobrevivió
+515,0,3,"Coleff, Mr. Satio",Hombre,24.0,0,0,7.4958,Southampton,0,No sobrevivió
+516,0,1,"Walker, Mr. William Anderson",Hombre,47.0,0,0,34.0208,Southampton,1,No sobrevivió
+517,1,2,"Lemore, Mrs. (Amelia Milley)",Mujer,34.0,0,0,10.5,Southampton,1,Sobrevivió
+518,0,3,"Ryan, Mr. Patrick",Hombre,25.0,0,0,24.15,Queenstown,0,No sobrevivió
+519,1,2,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",Mujer,36.0,1,0,26.0,Southampton,0,Sobrevivió
+520,0,3,"Pavlovic, Mr. Stefo",Hombre,32.0,0,0,7.8958,Southampton,0,No sobrevivió
+521,1,1,"Perreault, Miss. Anne",Mujer,30.0,0,0,93.5,Southampton,1,Sobrevivió
+522,0,3,"Vovk, Mr. Janko",Hombre,22.0,0,0,7.8958,Southampton,0,No sobrevivió
+523,0,3,"Lahoud, Mr. Sarkis",Hombre,25.0,0,0,7.225,Cherbourg,0,No sobrevivió
+524,1,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",Mujer,44.0,0,1,57.9792,Cherbourg,1,Sobrevivió
+525,0,3,"Kassem, Mr. Fared",Hombre,25.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+526,0,3,"Farrell, Mr. James",Hombre,40.5,0,0,7.75,Queenstown,0,No sobrevivió
+527,1,2,"Ridsdale, Miss. Lucy",Mujer,50.0,0,0,10.5,Southampton,0,Sobrevivió
+528,0,1,"Farthing, Mr. John",Hombre,40.0,0,0,221.7792,Southampton,1,No sobrevivió
+529,0,3,"Salonen, Mr. Johan Werner",Hombre,39.0,0,0,7.925,Southampton,0,No sobrevivió
+530,0,2,"Hocking, Mr. Richard George",Hombre,23.0,2,1,11.5,Southampton,0,No sobrevivió
+531,1,2,"Quick, Miss. Phyllis May",Mujer,2.0,1,1,26.0,Southampton,0,Sobrevivió
+532,0,3,"Toufik, Mr. Nakli",Hombre,25.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+533,0,3,"Elias, Mr. Joseph Jr",Hombre,17.0,1,1,7.2292,Cherbourg,0,No sobrevivió
+534,1,3,"Peter, Mrs. Catherine (Catherine Rizk)",Mujer,21.5,0,2,22.3583,Cherbourg,0,Sobrevivió
+535,0,3,"Cacic, Miss. Marija",Mujer,30.0,0,0,8.6625,Southampton,0,No sobrevivió
+536,1,2,"Hart, Miss. Eva Miriam",Mujer,7.0,0,2,26.25,Southampton,0,Sobrevivió
+537,0,1,"Butt, Major. Archibald Willingham",Hombre,45.0,0,0,26.55,Southampton,1,No sobrevivió
+538,1,1,"LeRoy, Miss. Bertha",Mujer,30.0,0,0,106.425,Cherbourg,0,Sobrevivió
+539,0,3,"Risien, Mr. Samuel Beard",Hombre,25.0,0,0,14.5,Southampton,0,No sobrevivió
+540,1,1,"Frolicher, Miss. Hedwig Margaritha",Mujer,22.0,0,2,49.5,Cherbourg,1,Sobrevivió
+541,1,1,"Crosby, Miss. Harriet R",Mujer,36.0,0,2,71.0,Southampton,1,Sobrevivió
+542,0,3,"Andersson, Miss. Ingeborg Constanzia",Mujer,9.0,4,2,31.275,Southampton,0,No sobrevivió
+543,0,3,"Andersson, Miss. Sigrid Elisabeth",Mujer,11.0,4,2,31.275,Southampton,0,No sobrevivió
+544,1,2,"Beane, Mr. Edward",Hombre,32.0,1,0,26.0,Southampton,0,Sobrevivió
+545,0,1,"Douglas, Mr. Walter Donald",Hombre,50.0,1,0,106.425,Cherbourg,1,No sobrevivió
+546,0,1,"Nicholson, Mr. Arthur Ernest",Hombre,64.0,0,0,26.0,Southampton,0,No sobrevivió
+547,1,2,"Beane, Mrs. Edward (Ethel Clarke)",Mujer,19.0,1,0,26.0,Southampton,0,Sobrevivió
+548,1,2,"Padro y Manent, Mr. Julian",Hombre,30.0,0,0,13.8625,Cherbourg,0,Sobrevivió
+549,0,3,"Goldsmith, Mr. Frank John",Hombre,33.0,1,1,20.525,Southampton,0,No sobrevivió
+550,1,2,"Davies, Master. John Morgan Jr",Hombre,8.0,1,1,36.75,Southampton,0,Sobrevivió
+551,1,1,"Thayer, Mr. John Borland Jr",Hombre,17.0,0,2,110.8833,Cherbourg,1,Sobrevivió
+552,0,2,"Sharp, Mr. Percival James R",Hombre,27.0,0,0,26.0,Southampton,0,No sobrevivió
+553,0,3,"O'Brien, Mr. Timothy",Hombre,25.0,0,0,7.8292,Queenstown,0,No sobrevivió
+554,1,3,"Leeni, Mr. Fahim (""Philip Zenni"")",Hombre,22.0,0,0,7.225,Cherbourg,0,Sobrevivió
+555,1,3,"Ohman, Miss. Velin",Mujer,22.0,0,0,7.775,Southampton,0,Sobrevivió
+556,0,1,"Wright, Mr. George",Hombre,62.0,0,0,26.55,Southampton,0,No sobrevivió
+557,1,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",Mujer,48.0,1,0,39.6,Cherbourg,1,Sobrevivió
+558,0,1,"Robbins, Mr. Victor",Hombre,40.0,0,0,227.525,Cherbourg,0,No sobrevivió
+559,1,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",Mujer,39.0,1,1,79.65,Southampton,1,Sobrevivió
+560,1,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",Mujer,36.0,1,0,17.4,Southampton,0,Sobrevivió
+561,0,3,"Morrow, Mr. Thomas Rowan",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+562,0,3,"Sivic, Mr. Husein",Hombre,40.0,0,0,7.8958,Southampton,0,No sobrevivió
+563,0,2,"Norman, Mr. Robert Douglas",Hombre,28.0,0,0,13.5,Southampton,0,No sobrevivió
+564,0,3,"Simmons, Mr. John",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+565,0,3,"Meanwell, Miss. (Marion Ogden)",Mujer,21.5,0,0,8.05,Southampton,0,No sobrevivió
+566,0,3,"Davies, Mr. Alfred J",Hombre,24.0,2,0,24.15,Southampton,0,No sobrevivió
+567,0,3,"Stoytcheff, Mr. Ilia",Hombre,19.0,0,0,7.8958,Southampton,0,No sobrevivió
+568,0,3,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",Mujer,29.0,0,4,21.075,Southampton,0,No sobrevivió
+569,0,3,"Doharr, Mr. Tannous",Hombre,25.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+570,1,3,"Jonsson, Mr. Carl",Hombre,32.0,0,0,7.8542,Southampton,0,Sobrevivió
+571,1,2,"Harris, Mr. George",Hombre,62.0,0,0,10.5,Southampton,0,Sobrevivió
+572,1,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",Mujer,53.0,2,0,51.4792,Southampton,1,Sobrevivió
+573,1,1,"Flynn, Mr. John Irwin (""Irving"")",Hombre,36.0,0,0,26.3875,Southampton,1,Sobrevivió
+574,1,3,"Kelly, Miss. Mary",Mujer,21.5,0,0,7.75,Queenstown,0,Sobrevivió
+575,0,3,"Rush, Mr. Alfred George John",Hombre,16.0,0,0,8.05,Southampton,0,No sobrevivió
+576,0,3,"Patchett, Mr. George",Hombre,19.0,0,0,14.5,Southampton,0,No sobrevivió
+577,1,2,"Garside, Miss. Ethel",Mujer,34.0,0,0,13.0,Southampton,0,Sobrevivió
+578,1,1,"Silvey, Mrs. William Baird (Alice Munger)",Mujer,39.0,1,0,55.9,Southampton,1,Sobrevivió
+579,0,3,"Caram, Mrs. Joseph (Maria Elias)",Mujer,21.5,1,0,14.4583,Cherbourg,0,No sobrevivió
+580,1,3,"Jussila, Mr. Eiriik",Hombre,32.0,0,0,7.925,Southampton,0,Sobrevivió
+581,1,2,"Christy, Miss. Julie Rachel",Mujer,25.0,1,1,30.0,Southampton,0,Sobrevivió
+582,1,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",Mujer,39.0,1,1,110.8833,Cherbourg,1,Sobrevivió
+583,0,2,"Downton, Mr. William James",Hombre,54.0,0,0,26.0,Southampton,0,No sobrevivió
+584,0,1,"Ross, Mr. John Hugo",Hombre,36.0,0,0,40.125,Cherbourg,1,No sobrevivió
+585,0,3,"Paulner, Mr. Uscher",Hombre,25.0,0,0,8.7125,Cherbourg,0,No sobrevivió
+586,1,1,"Taussig, Miss. Ruth",Mujer,18.0,0,2,79.65,Southampton,1,Sobrevivió
+587,0,2,"Jarvis, Mr. John Denzil",Hombre,47.0,0,0,15.0,Southampton,0,No sobrevivió
+588,1,1,"Frolicher-Stehli, Mr. Maxmillian",Hombre,60.0,1,1,79.2,Cherbourg,1,Sobrevivió
+589,0,3,"Gilinski, Mr. Eliezer",Hombre,22.0,0,0,8.05,Southampton,0,No sobrevivió
+590,0,3,"Murdlin, Mr. Joseph",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+591,0,3,"Rintamaki, Mr. Matti",Hombre,35.0,0,0,7.125,Southampton,0,No sobrevivió
+592,1,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",Mujer,52.0,1,0,78.2667,Cherbourg,1,Sobrevivió
+593,0,3,"Elsbury, Mr. William James",Hombre,47.0,0,0,7.25,Southampton,0,No sobrevivió
+594,0,3,"Bourke, Miss. Mary",Mujer,21.5,0,2,7.75,Queenstown,0,No sobrevivió
+595,0,2,"Chapman, Mr. John Henry",Hombre,37.0,1,0,26.0,Southampton,0,No sobrevivió
+596,0,3,"Van Impe, Mr. Jean Baptiste",Hombre,36.0,1,1,24.15,Southampton,0,No sobrevivió
+597,1,2,"Leitch, Miss. Jessie Wills",Mujer,28.0,0,0,33.0,Southampton,0,Sobrevivió
+598,0,3,"Johnson, Mr. Alfred",Hombre,49.0,0,0,0.0,Southampton,0,No sobrevivió
+599,0,3,"Boulos, Mr. Hanna",Hombre,25.0,0,0,7.225,Cherbourg,0,No sobrevivió
+600,1,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",Hombre,49.0,1,0,56.9292,Cherbourg,1,Sobrevivió
+601,1,2,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",Mujer,24.0,2,1,27.0,Southampton,0,Sobrevivió
+602,0,3,"Slabenoff, Mr. Petco",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+603,0,1,"Harrington, Mr. Charles H",Hombre,40.0,0,0,42.4,Southampton,0,No sobrevivió
+604,0,3,"Torber, Mr. Ernst William",Hombre,44.0,0,0,8.05,Southampton,0,No sobrevivió
+605,1,1,"Homer, Mr. Harry (""Mr E Haven"")",Hombre,35.0,0,0,26.55,Cherbourg,0,Sobrevivió
+606,0,3,"Lindell, Mr. Edvard Bengtsson",Hombre,36.0,1,0,15.55,Southampton,0,No sobrevivió
+607,0,3,"Karaic, Mr. Milan",Hombre,30.0,0,0,7.8958,Southampton,0,No sobrevivió
+608,1,1,"Daniel, Mr. Robert Williams",Hombre,27.0,0,0,30.5,Southampton,0,Sobrevivió
+609,1,2,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",Mujer,22.0,1,2,41.5792,Cherbourg,0,Sobrevivió
+610,1,1,"Shutes, Miss. Elizabeth W",Mujer,40.0,0,0,153.4625,Southampton,1,Sobrevivió
+611,0,3,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",Mujer,39.0,1,5,31.275,Southampton,0,No sobrevivió
+612,0,3,"Jardin, Mr. Jose Neto",Hombre,25.0,0,0,7.05,Southampton,0,No sobrevivió
+613,1,3,"Murphy, Miss. Margaret Jane",Mujer,21.5,1,0,15.5,Queenstown,0,Sobrevivió
+614,0,3,"Horgan, Mr. John",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+615,0,3,"Brocklebank, Mr. William Alfred",Hombre,35.0,0,0,8.05,Southampton,0,No sobrevivió
+616,1,2,"Herman, Miss. Alice",Mujer,24.0,1,2,65.0,Southampton,0,Sobrevivió
+617,0,3,"Danbom, Mr. Ernst Gilbert",Hombre,34.0,1,1,14.4,Southampton,0,No sobrevivió
+618,0,3,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",Mujer,26.0,1,0,16.1,Southampton,0,No sobrevivió
+619,1,2,"Becker, Miss. Marion Louise",Mujer,4.0,2,1,39.0,Southampton,1,Sobrevivió
+620,0,2,"Gavey, Mr. Lawrence",Hombre,26.0,0,0,10.5,Southampton,0,No sobrevivió
+621,0,3,"Yasbeck, Mr. Antoni",Hombre,27.0,1,0,14.4542,Cherbourg,0,No sobrevivió
+622,1,1,"Kimball, Mr. Edwin Nelson Jr",Hombre,42.0,1,0,52.5542,Southampton,1,Sobrevivió
+623,1,3,"Nakid, Mr. Sahid",Hombre,20.0,1,1,15.7417,Cherbourg,0,Sobrevivió
+624,0,3,"Hansen, Mr. Henry Damsgaard",Hombre,21.0,0,0,7.8542,Southampton,0,No sobrevivió
+625,0,3,"Bowen, Mr. David John ""Dai""",Hombre,21.0,0,0,16.1,Southampton,0,No sobrevivió
+626,0,1,"Sutton, Mr. Frederick",Hombre,61.0,0,0,32.3208,Southampton,1,No sobrevivió
+627,0,2,"Kirkland, Rev. Charles Leonard",Hombre,57.0,0,0,12.35,Queenstown,0,No sobrevivió
+628,1,1,"Longley, Miss. Gretchen Fiske",Mujer,21.0,0,0,77.9583,Southampton,1,Sobrevivió
+629,0,3,"Bostandyeff, Mr. Guentcho",Hombre,26.0,0,0,7.8958,Southampton,0,No sobrevivió
+630,0,3,"O'Connell, Mr. Patrick D",Hombre,25.0,0,0,7.7333,Queenstown,0,No sobrevivió
+631,1,1,"Barkworth, Mr. Algernon Henry Wilson",Hombre,80.0,0,0,30.0,Southampton,1,Sobrevivió
+632,0,3,"Lundahl, Mr. Johan Svensson",Hombre,51.0,0,0,7.0542,Southampton,0,No sobrevivió
+633,1,1,"Stahelin-Maeglin, Dr. Max",Hombre,32.0,0,0,30.5,Cherbourg,1,Sobrevivió
+634,0,1,"Parr, Mr. William Henry Marsh",Hombre,40.0,0,0,0.0,Southampton,0,No sobrevivió
+635,0,3,"Skoog, Miss. Mabel",Mujer,9.0,3,2,27.9,Southampton,0,No sobrevivió
+636,1,2,"Davis, Miss. Mary",Mujer,28.0,0,0,13.0,Southampton,0,Sobrevivió
+637,0,3,"Leinonen, Mr. Antti Gustaf",Hombre,32.0,0,0,7.925,Southampton,0,No sobrevivió
+638,0,2,"Collyer, Mr. Harvey",Hombre,31.0,1,1,26.25,Southampton,0,No sobrevivió
+639,0,3,"Panula, Mrs. Juha (Maria Emilia Ojala)",Mujer,41.0,0,5,39.6875,Southampton,0,No sobrevivió
+640,0,3,"Thorneycroft, Mr. Percival",Hombre,25.0,1,0,16.1,Southampton,0,No sobrevivió
+641,0,3,"Jensen, Mr. Hans Peder",Hombre,20.0,0,0,7.8542,Southampton,0,No sobrevivió
+642,1,1,"Sagesser, Mlle. Emma",Mujer,24.0,0,0,69.3,Cherbourg,1,Sobrevivió
+643,0,3,"Skoog, Miss. Margit Elizabeth",Mujer,2.0,3,2,27.9,Southampton,0,No sobrevivió
+644,1,3,"Foo, Mr. Choong",Hombre,25.0,0,0,56.4958,Southampton,0,Sobrevivió
+645,1,3,"Baclini, Miss. Eugenie",Mujer,0.75,2,1,19.2583,Cherbourg,0,Sobrevivió
+646,1,1,"Harper, Mr. Henry Sleeper",Hombre,48.0,1,0,76.7292,Cherbourg,1,Sobrevivió
+647,0,3,"Cor, Mr. Liudevit",Hombre,19.0,0,0,7.8958,Southampton,0,No sobrevivió
+648,1,1,"Simonius-Blumer, Col. Oberst Alfons",Hombre,56.0,0,0,35.5,Cherbourg,1,Sobrevivió
+649,0,3,"Willey, Mr. Edward",Hombre,25.0,0,0,7.55,Southampton,0,No sobrevivió
+650,1,3,"Stanley, Miss. Amy Zillah Elsie",Mujer,23.0,0,0,7.55,Southampton,0,Sobrevivió
+651,0,3,"Mitkoff, Mr. Mito",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+652,1,2,"Doling, Miss. Elsie",Mujer,18.0,0,1,23.0,Southampton,0,Sobrevivió
+653,0,3,"Kalvik, Mr. Johannes Halvorsen",Hombre,21.0,0,0,8.4333,Southampton,0,No sobrevivió
+654,1,3,"O'Leary, Miss. Hanora ""Norah""",Mujer,21.5,0,0,7.8292,Queenstown,0,Sobrevivió
+655,0,3,"Hegarty, Miss. Hanora ""Nora""",Mujer,18.0,0,0,6.75,Queenstown,0,No sobrevivió
+656,0,2,"Hickman, Mr. Leonard Mark",Hombre,24.0,2,0,73.5,Southampton,0,No sobrevivió
+657,0,3,"Radeff, Mr. Alexander",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+658,0,3,"Bourke, Mrs. John (Catherine)",Mujer,32.0,1,1,15.5,Queenstown,0,No sobrevivió
+659,0,2,"Eitemiller, Mr. George Floyd",Hombre,23.0,0,0,13.0,Southampton,0,No sobrevivió
+660,0,1,"Newell, Mr. Arthur Webster",Hombre,58.0,0,2,113.275,Cherbourg,1,No sobrevivió
+661,1,1,"Frauenthal, Dr. Henry William",Hombre,50.0,2,0,133.65,Southampton,0,Sobrevivió
+662,0,3,"Badt, Mr. Mohamed",Hombre,40.0,0,0,7.225,Cherbourg,0,No sobrevivió
+663,0,1,"Colley, Mr. Edward Pomeroy",Hombre,47.0,0,0,25.5875,Southampton,1,No sobrevivió
+664,0,3,"Coleff, Mr. Peju",Hombre,36.0,0,0,7.4958,Southampton,0,No sobrevivió
+665,1,3,"Lindqvist, Mr. Eino William",Hombre,20.0,1,0,7.925,Southampton,0,Sobrevivió
+666,0,2,"Hickman, Mr. Lewis",Hombre,32.0,2,0,73.5,Southampton,0,No sobrevivió
+667,0,2,"Butler, Mr. Reginald Fenton",Hombre,25.0,0,0,13.0,Southampton,0,No sobrevivió
+668,0,3,"Rommetvedt, Mr. Knud Paust",Hombre,25.0,0,0,7.775,Southampton,0,No sobrevivió
+669,0,3,"Cook, Mr. Jacob",Hombre,43.0,0,0,8.05,Southampton,0,No sobrevivió
+670,1,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",Mujer,35.0,1,0,52.0,Southampton,1,Sobrevivió
+671,1,2,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",Mujer,40.0,1,1,39.0,Southampton,0,Sobrevivió
+672,0,1,"Davidson, Mr. Thornton",Hombre,31.0,1,0,52.0,Southampton,1,No sobrevivió
+673,0,2,"Mitchell, Mr. Henry Michael",Hombre,70.0,0,0,10.5,Southampton,0,No sobrevivió
+674,1,2,"Wilhelms, Mr. Charles",Hombre,31.0,0,0,13.0,Southampton,0,Sobrevivió
+675,0,2,"Watson, Mr. Ennis Hastings",Hombre,30.0,0,0,0.0,Southampton,0,No sobrevivió
+676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",Hombre,18.0,0,0,7.775,Southampton,0,No sobrevivió
+677,0,3,"Sawyer, Mr. Frederick Charles",Hombre,24.5,0,0,8.05,Southampton,0,No sobrevivió
+678,1,3,"Turja, Miss. Anna Sofia",Mujer,18.0,0,0,9.8417,Southampton,0,Sobrevivió
+679,0,3,"Goodwin, Mrs. Frederick (Augusta Tyler)",Mujer,43.0,1,6,46.9,Southampton,0,No sobrevivió
+680,1,1,"Cardeza, Mr. Thomas Drake Martinez",Hombre,36.0,0,1,512.3292,Cherbourg,1,Sobrevivió
+681,0,3,"Peters, Miss. Katie",Mujer,21.5,0,0,8.1375,Queenstown,0,No sobrevivió
+682,1,1,"Hassab, Mr. Hammad",Hombre,27.0,0,0,76.7292,Cherbourg,1,Sobrevivió
+683,0,3,"Olsvigen, Mr. Thor Anderson",Hombre,20.0,0,0,9.225,Southampton,0,No sobrevivió
+684,0,3,"Goodwin, Mr. Charles Edward",Hombre,14.0,5,2,46.9,Southampton,0,No sobrevivió
+685,0,2,"Brown, Mr. Thomas William Solomon",Hombre,60.0,1,1,39.0,Southampton,0,No sobrevivió
+686,0,2,"Laroche, Mr. Joseph Philippe Lemercier",Hombre,25.0,1,2,41.5792,Cherbourg,0,No sobrevivió
+687,0,3,"Panula, Mr. Jaako Arnold",Hombre,14.0,4,1,39.6875,Southampton,0,No sobrevivió
+688,0,3,"Dakic, Mr. Branko",Hombre,19.0,0,0,10.1708,Southampton,0,No sobrevivió
+689,0,3,"Fischer, Mr. Eberhard Thelander",Hombre,18.0,0,0,7.7958,Southampton,0,No sobrevivió
+690,1,1,"Madill, Miss. Georgette Alexandra",Mujer,15.0,0,1,211.3375,Southampton,1,Sobrevivió
+691,1,1,"Dick, Mr. Albert Adrian",Hombre,31.0,1,0,57.0,Southampton,1,Sobrevivió
+692,1,3,"Karun, Miss. Manca",Mujer,4.0,0,1,13.4167,Cherbourg,0,Sobrevivió
+693,1,3,"Lam, Mr. Ali",Hombre,25.0,0,0,56.4958,Southampton,0,Sobrevivió
+694,0,3,"Saad, Mr. Khalil",Hombre,25.0,0,0,7.225,Cherbourg,0,No sobrevivió
+695,0,1,"Weir, Col. John",Hombre,60.0,0,0,26.55,Southampton,0,No sobrevivió
+696,0,2,"Chapman, Mr. Charles Henry",Hombre,52.0,0,0,13.5,Southampton,0,No sobrevivió
+697,0,3,"Kelly, Mr. James",Hombre,44.0,0,0,8.05,Southampton,0,No sobrevivió
+698,1,3,"Mullens, Miss. Katherine ""Katie""",Mujer,21.5,0,0,7.7333,Queenstown,0,Sobrevivió
+699,0,1,"Thayer, Mr. John Borland",Hombre,49.0,1,1,110.8833,Cherbourg,1,No sobrevivió
+700,0,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",Hombre,42.0,0,0,7.65,Southampton,1,No sobrevivió
+701,1,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",Mujer,18.0,1,0,227.525,Cherbourg,1,Sobrevivió
+702,1,1,"Silverthorne, Mr. Spencer Victor",Hombre,35.0,0,0,26.2875,Southampton,1,Sobrevivió
+703,0,3,"Barbara, Miss. Saiide",Mujer,18.0,0,1,14.4542,Cherbourg,0,No sobrevivió
+704,0,3,"Gallagher, Mr. Martin",Hombre,25.0,0,0,7.7417,Queenstown,0,No sobrevivió
+705,0,3,"Hansen, Mr. Henrik Juul",Hombre,26.0,1,0,7.8542,Southampton,0,No sobrevivió
+706,0,2,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",Hombre,39.0,0,0,26.0,Southampton,0,No sobrevivió
+707,1,2,"Kelly, Mrs. Florence ""Fannie""",Mujer,45.0,0,0,13.5,Southampton,0,Sobrevivió
+708,1,1,"Calderhead, Mr. Edward Pennington",Hombre,42.0,0,0,26.2875,Southampton,1,Sobrevivió
+709,1,1,"Cleaver, Miss. Alice",Mujer,22.0,0,0,151.55,Southampton,0,Sobrevivió
+710,1,3,"Moubarek, Master. Halim Gonios (""William George"")",Hombre,25.0,1,1,15.2458,Cherbourg,0,Sobrevivió
+711,1,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",Mujer,24.0,0,0,49.5042,Cherbourg,1,Sobrevivió
+712,0,1,"Klaber, Mr. Herman",Hombre,40.0,0,0,26.55,Southampton,1,No sobrevivió
+713,1,1,"Taylor, Mr. Elmer Zebley",Hombre,48.0,1,0,52.0,Southampton,1,Sobrevivió
+714,0,3,"Larsson, Mr. August Viktor",Hombre,29.0,0,0,9.4833,Southampton,0,No sobrevivió
+715,0,2,"Greenberg, Mr. Samuel",Hombre,52.0,0,0,13.0,Southampton,0,No sobrevivió
+716,0,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",Hombre,19.0,0,0,7.65,Southampton,1,No sobrevivió
+717,1,1,"Endres, Miss. Caroline Louise",Mujer,38.0,0,0,227.525,Cherbourg,1,Sobrevivió
+718,1,2,"Troutt, Miss. Edwina Celia ""Winnie""",Mujer,27.0,0,0,10.5,Southampton,1,Sobrevivió
+719,0,3,"McEvoy, Mr. Michael",Hombre,25.0,0,0,15.5,Queenstown,0,No sobrevivió
+720,0,3,"Johnson, Mr. Malkolm Joackim",Hombre,33.0,0,0,7.775,Southampton,0,No sobrevivió
+721,1,2,"Harper, Miss. Annie Jessie ""Nina""",Mujer,6.0,0,1,33.0,Southampton,0,Sobrevivió
+722,0,3,"Jensen, Mr. Svend Lauritz",Hombre,17.0,1,0,7.0542,Southampton,0,No sobrevivió
+723,0,2,"Gillespie, Mr. William Henry",Hombre,34.0,0,0,13.0,Southampton,0,No sobrevivió
+724,0,2,"Hodges, Mr. Henry Price",Hombre,50.0,0,0,13.0,Southampton,0,No sobrevivió
+725,1,1,"Chambers, Mr. Norman Campbell",Hombre,27.0,1,0,53.1,Southampton,1,Sobrevivió
+726,0,3,"Oreskovic, Mr. Luka",Hombre,20.0,0,0,8.6625,Southampton,0,No sobrevivió
+727,1,2,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",Mujer,30.0,3,0,21.0,Southampton,0,Sobrevivió
+728,1,3,"Mannion, Miss. Margareth",Mujer,21.5,0,0,7.7375,Queenstown,0,Sobrevivió
+729,0,2,"Bryhl, Mr. Kurt Arnold Gottfrid",Hombre,25.0,1,0,26.0,Southampton,0,No sobrevivió
+730,0,3,"Ilmakangas, Miss. Pieta Sofia",Mujer,25.0,1,0,7.925,Southampton,0,No sobrevivió
+731,1,1,"Allen, Miss. Elisabeth Walton",Mujer,29.0,0,0,211.3375,Southampton,1,Sobrevivió
+732,0,3,"Hassan, Mr. Houssein G N",Hombre,11.0,0,0,18.7875,Cherbourg,0,No sobrevivió
+733,0,2,"Knight, Mr. Robert J",Hombre,30.0,0,0,0.0,Southampton,0,No sobrevivió
+734,0,2,"Berriman, Mr. William John",Hombre,23.0,0,0,13.0,Southampton,0,No sobrevivió
+735,0,2,"Troupiansky, Mr. Moses Aaron",Hombre,23.0,0,0,13.0,Southampton,0,No sobrevivió
+736,0,3,"Williams, Mr. Leslie",Hombre,28.5,0,0,16.1,Southampton,0,No sobrevivió
+737,0,3,"Ford, Mrs. Edward (Margaret Ann Watson)",Mujer,48.0,1,3,34.375,Southampton,0,No sobrevivió
+738,1,1,"Lesurer, Mr. Gustave J",Hombre,35.0,0,0,512.3292,Cherbourg,1,Sobrevivió
+739,0,3,"Ivanoff, Mr. Kanio",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+740,0,3,"Nankoff, Mr. Minko",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+741,1,1,"Hawksford, Mr. Walter James",Hombre,40.0,0,0,30.0,Southampton,1,Sobrevivió
+742,0,1,"Cavendish, Mr. Tyrell William",Hombre,36.0,1,0,78.85,Southampton,1,No sobrevivió
+743,1,1,"Ryerson, Miss. Susan Parker ""Suzette""",Mujer,21.0,2,2,262.375,Cherbourg,1,Sobrevivió
+744,0,3,"McNamee, Mr. Neal",Hombre,24.0,1,0,16.1,Southampton,0,No sobrevivió
+745,1,3,"Stranden, Mr. Juho",Hombre,31.0,0,0,7.925,Southampton,0,Sobrevivió
+746,0,1,"Crosby, Capt. Edward Gifford",Hombre,70.0,1,1,71.0,Southampton,1,No sobrevivió
+747,0,3,"Abbott, Mr. Rossmore Edward",Hombre,16.0,1,1,20.25,Southampton,0,No sobrevivió
+748,1,2,"Sinkkonen, Miss. Anna",Mujer,30.0,0,0,13.0,Southampton,0,Sobrevivió
+749,0,1,"Marvin, Mr. Daniel Warner",Hombre,19.0,1,0,53.1,Southampton,1,No sobrevivió
+750,0,3,"Connaghton, Mr. Michael",Hombre,31.0,0,0,7.75,Queenstown,0,No sobrevivió
+751,1,2,"Wells, Miss. Joan",Mujer,4.0,1,1,23.0,Southampton,0,Sobrevivió
+752,1,3,"Moor, Master. Meier",Hombre,6.0,0,1,12.475,Southampton,1,Sobrevivió
+753,0,3,"Vande Velde, Mr. Johannes Joseph",Hombre,33.0,0,0,9.5,Southampton,0,No sobrevivió
+754,0,3,"Jonkoff, Mr. Lalio",Hombre,23.0,0,0,7.8958,Southampton,0,No sobrevivió
+755,1,2,"Herman, Mrs. Samuel (Jane Laver)",Mujer,48.0,1,2,65.0,Southampton,0,Sobrevivió
+756,1,2,"Hamalainen, Master. Viljo",Hombre,0.67,1,1,14.5,Southampton,0,Sobrevivió
+757,0,3,"Carlsson, Mr. August Sigfrid",Hombre,28.0,0,0,7.7958,Southampton,0,No sobrevivió
+758,0,2,"Bailey, Mr. Percy Andrew",Hombre,18.0,0,0,11.5,Southampton,0,No sobrevivió
+759,0,3,"Theobald, Mr. Thomas Leonard",Hombre,34.0,0,0,8.05,Southampton,0,No sobrevivió
+760,1,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",Mujer,33.0,0,0,86.5,Southampton,1,Sobrevivió
+761,0,3,"Garfirth, Mr. John",Hombre,25.0,0,0,14.5,Southampton,0,No sobrevivió
+762,0,3,"Nirva, Mr. Iisakki Antino Aijo",Hombre,41.0,0,0,7.125,Southampton,0,No sobrevivió
+763,1,3,"Barah, Mr. Hanna Assi",Hombre,20.0,0,0,7.2292,Cherbourg,0,Sobrevivió
+764,1,1,"Carter, Mrs. William Ernest (Lucile Polk)",Mujer,36.0,1,2,120.0,Southampton,1,Sobrevivió
+765,0,3,"Eklund, Mr. Hans Linus",Hombre,16.0,0,0,7.775,Southampton,0,No sobrevivió
+766,1,1,"Hogeboom, Mrs. John C (Anna Andrews)",Mujer,51.0,1,0,77.9583,Southampton,1,Sobrevivió
+767,0,1,"Brewe, Dr. Arthur Jackson",Hombre,40.0,0,0,39.6,Cherbourg,0,No sobrevivió
+768,0,3,"Mangan, Miss. Mary",Mujer,30.5,0,0,7.75,Queenstown,0,No sobrevivió
+769,0,3,"Moran, Mr. Daniel J",Hombre,25.0,1,0,24.15,Queenstown,0,No sobrevivió
+770,0,3,"Gronnestad, Mr. Daniel Danielsen",Hombre,32.0,0,0,8.3625,Southampton,0,No sobrevivió
+771,0,3,"Lievens, Mr. Rene Aime",Hombre,24.0,0,0,9.5,Southampton,0,No sobrevivió
+772,0,3,"Jensen, Mr. Niels Peder",Hombre,48.0,0,0,7.8542,Southampton,0,No sobrevivió
+773,0,2,"Mack, Mrs. (Mary)",Mujer,57.0,0,0,10.5,Southampton,1,No sobrevivió
+774,0,3,"Elias, Mr. Dibo",Hombre,25.0,0,0,7.225,Cherbourg,0,No sobrevivió
+775,1,2,"Hocking, Mrs. Elizabeth (Eliza Needs)",Mujer,54.0,1,3,23.0,Southampton,0,Sobrevivió
+776,0,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",Hombre,18.0,0,0,7.75,Southampton,0,No sobrevivió
+777,0,3,"Tobin, Mr. Roger",Hombre,25.0,0,0,7.75,Queenstown,1,No sobrevivió
+778,1,3,"Emanuel, Miss. Virginia Ethel",Mujer,5.0,0,0,12.475,Southampton,0,Sobrevivió
+779,0,3,"Kilgannon, Mr. Thomas J",Hombre,25.0,0,0,7.7375,Queenstown,0,No sobrevivió
+780,1,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",Mujer,43.0,0,1,211.3375,Southampton,1,Sobrevivió
+781,1,3,"Ayoub, Miss. Banoura",Mujer,13.0,0,0,7.2292,Cherbourg,0,Sobrevivió
+782,1,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",Mujer,17.0,1,0,57.0,Southampton,1,Sobrevivió
+783,0,1,"Long, Mr. Milton Clyde",Hombre,29.0,0,0,30.0,Southampton,1,No sobrevivió
+784,0,3,"Johnston, Mr. Andrew G",Hombre,25.0,1,2,23.45,Southampton,0,No sobrevivió
+785,0,3,"Ali, Mr. William",Hombre,25.0,0,0,7.05,Southampton,0,No sobrevivió
+786,0,3,"Harmer, Mr. Abraham (David Lishin)",Hombre,25.0,0,0,7.25,Southampton,0,No sobrevivió
+787,1,3,"Sjoblom, Miss. Anna Sofia",Mujer,18.0,0,0,7.4958,Southampton,0,Sobrevivió
+788,0,3,"Rice, Master. George Hugh",Hombre,8.0,4,1,29.125,Queenstown,0,No sobrevivió
+789,1,3,"Dean, Master. Bertram Vere",Hombre,1.0,1,2,20.575,Southampton,0,Sobrevivió
+790,0,1,"Guggenheim, Mr. Benjamin",Hombre,46.0,0,0,79.2,Cherbourg,1,No sobrevivió
+791,0,3,"Keane, Mr. Andrew ""Andy""",Hombre,25.0,0,0,7.75,Queenstown,0,No sobrevivió
+792,0,2,"Gaskell, Mr. Alfred",Hombre,16.0,0,0,26.0,Southampton,0,No sobrevivió
+793,0,3,"Sage, Miss. Stella Anna",Mujer,21.5,8,2,69.55,Southampton,0,No sobrevivió
+794,0,1,"Hoyt, Mr. William Fisher",Hombre,40.0,0,0,30.6958,Cherbourg,0,No sobrevivió
+795,0,3,"Dantcheff, Mr. Ristiu",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+796,0,2,"Otter, Mr. Richard",Hombre,39.0,0,0,13.0,Southampton,0,No sobrevivió
+797,1,1,"Leader, Dr. Alice (Farnham)",Mujer,49.0,0,0,25.9292,Southampton,1,Sobrevivió
+798,1,3,"Osman, Mrs. Mara",Mujer,31.0,0,0,8.6833,Southampton,0,Sobrevivió
+799,0,3,"Ibrahim Shawah, Mr. Yousseff",Hombre,30.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+800,0,3,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",Mujer,30.0,1,1,24.15,Southampton,0,No sobrevivió
+801,0,2,"Ponesell, Mr. Martin",Hombre,34.0,0,0,13.0,Southampton,0,No sobrevivió
+802,1,2,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",Mujer,31.0,1,1,26.25,Southampton,0,Sobrevivió
+803,1,1,"Carter, Master. William Thornton II",Hombre,11.0,1,2,120.0,Southampton,1,Sobrevivió
+804,1,3,"Thomas, Master. Assad Alexander",Hombre,0.42,0,1,8.5167,Cherbourg,0,Sobrevivió
+805,1,3,"Hedman, Mr. Oskar Arvid",Hombre,27.0,0,0,6.975,Southampton,0,Sobrevivió
+806,0,3,"Johansson, Mr. Karl Johan",Hombre,31.0,0,0,7.775,Southampton,0,No sobrevivió
+807,0,1,"Andrews, Mr. Thomas Jr",Hombre,39.0,0,0,0.0,Southampton,1,No sobrevivió
+808,0,3,"Pettersson, Miss. Ellen Natalia",Mujer,18.0,0,0,7.775,Southampton,0,No sobrevivió
+809,0,2,"Meyer, Mr. August",Hombre,39.0,0,0,13.0,Southampton,0,No sobrevivió
+810,1,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",Mujer,33.0,1,0,53.1,Southampton,1,Sobrevivió
+811,0,3,"Alexander, Mr. William",Hombre,26.0,0,0,7.8875,Southampton,0,No sobrevivió
+812,0,3,"Lester, Mr. James",Hombre,39.0,0,0,24.15,Southampton,0,No sobrevivió
+813,0,2,"Slemen, Mr. Richard James",Hombre,35.0,0,0,10.5,Southampton,0,No sobrevivió
+814,0,3,"Andersson, Miss. Ebba Iris Alfrida",Mujer,6.0,4,2,31.275,Southampton,0,No sobrevivió
+815,0,3,"Tomlin, Mr. Ernest Portage",Hombre,30.5,0,0,8.05,Southampton,0,No sobrevivió
+816,0,1,"Fry, Mr. Richard",Hombre,40.0,0,0,0.0,Southampton,1,No sobrevivió
+817,0,3,"Heininen, Miss. Wendla Maria",Mujer,23.0,0,0,7.925,Southampton,0,No sobrevivió
+818,0,2,"Mallet, Mr. Albert",Hombre,31.0,1,1,37.0042,Cherbourg,0,No sobrevivió
+819,0,3,"Holm, Mr. John Fredrik Alexander",Hombre,43.0,0,0,6.45,Southampton,0,No sobrevivió
+820,0,3,"Skoog, Master. Karl Thorsten",Hombre,10.0,3,2,27.9,Southampton,0,No sobrevivió
+821,1,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",Mujer,52.0,1,1,93.5,Southampton,1,Sobrevivió
+822,1,3,"Lulic, Mr. Nikola",Hombre,27.0,0,0,8.6625,Southampton,0,Sobrevivió
+823,0,1,"Reuchlin, Jonkheer. John George",Hombre,38.0,0,0,0.0,Southampton,0,No sobrevivió
+824,1,3,"Moor, Mrs. (Beila)",Mujer,27.0,0,1,12.475,Southampton,1,Sobrevivió
+825,0,3,"Panula, Master. Urho Abraham",Hombre,2.0,4,1,39.6875,Southampton,0,No sobrevivió
+826,0,3,"Flynn, Mr. John",Hombre,25.0,0,0,6.95,Queenstown,0,No sobrevivió
+827,0,3,"Lam, Mr. Len",Hombre,25.0,0,0,56.4958,Southampton,0,No sobrevivió
+828,1,2,"Mallet, Master. Andre",Hombre,1.0,0,2,37.0042,Cherbourg,0,Sobrevivió
+829,1,3,"McCormack, Mr. Thomas Joseph",Hombre,25.0,0,0,7.75,Queenstown,0,Sobrevivió
+830,1,1,"Stone, Mrs. George Nelson (Martha Evelyn)",Mujer,62.0,0,0,80.0,Southampton,1,Sobrevivió
+831,1,3,"Yasbeck, Mrs. Antoni (Selini Alexander)",Mujer,15.0,1,0,14.4542,Cherbourg,0,Sobrevivió
+832,1,2,"Richards, Master. George Sibley",Hombre,0.83,1,1,18.75,Southampton,0,Sobrevivió
+833,0,3,"Saad, Mr. Amin",Hombre,25.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+834,0,3,"Augustsson, Mr. Albert",Hombre,23.0,0,0,7.8542,Southampton,0,No sobrevivió
+835,0,3,"Allum, Mr. Owen George",Hombre,18.0,0,0,8.3,Southampton,0,No sobrevivió
+836,1,1,"Compton, Miss. Sara Rebecca",Mujer,39.0,1,1,83.1583,Cherbourg,1,Sobrevivió
+837,0,3,"Pasic, Mr. Jakob",Hombre,21.0,0,0,8.6625,Southampton,0,No sobrevivió
+838,0,3,"Sirota, Mr. Maurice",Hombre,25.0,0,0,8.05,Southampton,0,No sobrevivió
+839,1,3,"Chip, Mr. Chang",Hombre,32.0,0,0,56.4958,Southampton,0,Sobrevivió
+840,1,1,"Marechal, Mr. Pierre",Hombre,40.0,0,0,29.7,Cherbourg,1,Sobrevivió
+841,0,3,"Alhomaki, Mr. Ilmari Rudolf",Hombre,20.0,0,0,7.925,Southampton,0,No sobrevivió
+842,0,2,"Mudd, Mr. Thomas Charles",Hombre,16.0,0,0,10.5,Southampton,0,No sobrevivió
+843,1,1,"Serepeca, Miss. Augusta",Mujer,30.0,0,0,31.0,Cherbourg,0,Sobrevivió
+844,0,3,"Lemberopolous, Mr. Peter L",Hombre,34.5,0,0,6.4375,Cherbourg,0,No sobrevivió
+845,0,3,"Culumovic, Mr. Jeso",Hombre,17.0,0,0,8.6625,Southampton,0,No sobrevivió
+846,0,3,"Abbing, Mr. Anthony",Hombre,42.0,0,0,7.55,Southampton,0,No sobrevivió
+847,0,3,"Sage, Mr. Douglas Bullen",Hombre,25.0,8,2,69.55,Southampton,0,No sobrevivió
+848,0,3,"Markoff, Mr. Marin",Hombre,35.0,0,0,7.8958,Cherbourg,0,No sobrevivió
+849,0,2,"Harper, Rev. John",Hombre,28.0,0,1,33.0,Southampton,0,No sobrevivió
+850,1,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",Mujer,35.0,1,0,89.1042,Cherbourg,1,Sobrevivió
+851,0,3,"Andersson, Master. Sigvard Harald Elias",Hombre,4.0,4,2,31.275,Southampton,0,No sobrevivió
+852,0,3,"Svensson, Mr. Johan",Hombre,74.0,0,0,7.775,Southampton,0,No sobrevivió
+853,0,3,"Boulos, Miss. Nourelain",Mujer,9.0,1,1,15.2458,Cherbourg,0,No sobrevivió
+854,1,1,"Lines, Miss. Mary Conover",Mujer,16.0,0,1,39.4,Southampton,1,Sobrevivió
+855,0,2,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",Mujer,44.0,1,0,26.0,Southampton,0,No sobrevivió
+856,1,3,"Aks, Mrs. Sam (Leah Rosen)",Mujer,18.0,0,1,9.35,Southampton,0,Sobrevivió
+857,1,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",Mujer,45.0,1,1,164.8667,Southampton,0,Sobrevivió
+858,1,1,"Daly, Mr. Peter Denis ",Hombre,51.0,0,0,26.55,Southampton,1,Sobrevivió
+859,1,3,"Baclini, Mrs. Solomon (Latifa Qurban)",Mujer,24.0,0,3,19.2583,Cherbourg,0,Sobrevivió
+860,0,3,"Razi, Mr. Raihed",Hombre,25.0,0,0,7.2292,Cherbourg,0,No sobrevivió
+861,0,3,"Hansen, Mr. Claus Peter",Hombre,41.0,2,0,14.1083,Southampton,0,No sobrevivió
+862,0,2,"Giles, Mr. Frederick Edward",Hombre,21.0,1,0,11.5,Southampton,0,No sobrevivió
+863,1,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",Mujer,48.0,0,0,25.9292,Southampton,1,Sobrevivió
+864,0,3,"Sage, Miss. Dorothy Edith ""Dolly""",Mujer,21.5,8,2,69.55,Southampton,0,No sobrevivió
+865,0,2,"Gill, Mr. John William",Hombre,24.0,0,0,13.0,Southampton,0,No sobrevivió
+866,1,2,"Bystrom, Mrs. (Karolina)",Mujer,42.0,0,0,13.0,Southampton,0,Sobrevivió
+867,1,2,"Duran y More, Miss. Asuncion",Mujer,27.0,1,0,13.8583,Cherbourg,0,Sobrevivió
+868,0,1,"Roebling, Mr. Washington Augustus II",Hombre,31.0,0,0,50.4958,Southampton,1,No sobrevivió
+869,0,3,"van Melkebeke, Mr. Philemon",Hombre,25.0,0,0,9.5,Southampton,0,No sobrevivió
+870,1,3,"Johnson, Master. Harold Theodor",Hombre,4.0,1,1,11.1333,Southampton,0,Sobrevivió
+871,0,3,"Balkic, Mr. Cerin",Hombre,26.0,0,0,7.8958,Southampton,0,No sobrevivió
+872,1,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",Mujer,47.0,1,1,52.5542,Southampton,1,Sobrevivió
+873,0,1,"Carlsson, Mr. Frans Olof",Hombre,33.0,0,0,5.0,Southampton,1,No sobrevivió
+874,0,3,"Vander Cruyssen, Mr. Victor",Hombre,47.0,0,0,9.0,Southampton,0,No sobrevivió
+875,1,2,"Abelson, Mrs. Samuel (Hannah Wizosky)",Mujer,28.0,1,0,24.0,Cherbourg,0,Sobrevivió
+876,1,3,"Najib, Miss. Adele Kiamie ""Jane""",Mujer,15.0,0,0,7.225,Cherbourg,0,Sobrevivió
+877,0,3,"Gustafsson, Mr. Alfred Ossian",Hombre,20.0,0,0,9.8458,Southampton,0,No sobrevivió
+878,0,3,"Petroff, Mr. Nedelio",Hombre,19.0,0,0,7.8958,Southampton,0,No sobrevivió
+879,0,3,"Laleff, Mr. Kristo",Hombre,25.0,0,0,7.8958,Southampton,0,No sobrevivió
+880,1,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",Mujer,56.0,0,1,83.1583,Cherbourg,1,Sobrevivió
+881,1,2,"Shelley, Mrs. William (Imanita Parrish Hall)",Mujer,25.0,0,1,26.0,Southampton,0,Sobrevivió
+882,0,3,"Markun, Mr. Johann",Hombre,33.0,0,0,7.8958,Southampton,0,No sobrevivió
+883,0,3,"Dahlberg, Miss. Gerda Ulrika",Mujer,22.0,0,0,10.5167,Southampton,0,No sobrevivió
+884,0,2,"Banfield, Mr. Frederick James",Hombre,28.0,0,0,10.5,Southampton,0,No sobrevivió
+885,0,3,"Sutehall, Mr. Henry Jr",Hombre,25.0,0,0,7.05,Southampton,0,No sobrevivió
+886,0,3,"Rice, Mrs. William (Margaret Norton)",Mujer,39.0,0,5,29.125,Queenstown,0,No sobrevivió
+887,0,2,"Montvila, Rev. Juozas",Hombre,27.0,0,0,13.0,Southampton,0,No sobrevivió
+888,1,1,"Graham, Miss. Margaret Edith",Mujer,19.0,0,0,30.0,Southampton,1,Sobrevivió
+889,0,3,"Johnston, Miss. Catherine Helen ""Carrie""",Mujer,21.5,1,2,23.45,Southampton,0,No sobrevivió
+890,1,1,"Behr, Mr. Karl Howell",Hombre,26.0,0,0,30.0,Cherbourg,1,Sobrevivió
+891,0,3,"Dooley, Mr. Patrick",Hombre,32.0,0,0,7.75,Queenstown,0,No sobrevivió
