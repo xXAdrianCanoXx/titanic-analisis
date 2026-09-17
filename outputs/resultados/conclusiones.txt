@@ -1,0 +1,35 @@
+
+CONCLUSIONES DEL ANÁLISIS DEL TITANIC
+
+Supervivencia general:
+El 38.4% de los pasajeros incluidos en el dataset sobrevivió.
+
+Sexo:
+Las mujeres presentaron una tasa de supervivencia considerablemente mayor
+que los hombres.
+
+Clase:
+La supervivencia fue mayor entre los pasajeros de primera clase, seguida
+por segunda clase y finalmente tercera clase.
+
+Edad:
+Los niños presentaron una mayor tasa de supervivencia que varios de los
+grupos de mayor edad. Los adultos mayores presentaron una de las tasas
+más bajas.
+
+Familia:
+Los pasajeros que viajaban acompañados presentaron una mayor supervivencia
+que quienes viajaban solos. Sin embargo, los grupos familiares muy grandes
+presentaron tasas de supervivencia bajas.
+
+Tarifa:
+Se observa una relación entre la tarifa pagada y la supervivencia: los
+pasajeros de grupos de tarifa más alta presentaron mayores tasas de
+supervivencia.
+
+En conjunto, el análisis exploratorio muestra que el sexo, la clase,
+la edad, el tamaño de la familia y la tarifa presentan diferencias en las
+tasas de supervivencia observadas en este dataset.
+
+Estos resultados describen asociaciones dentro de los datos y no implican
+por sí mismos una relación causal.

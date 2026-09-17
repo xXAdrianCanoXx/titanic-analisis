@@ -1,4 +1,4 @@
-Pclass,pasajeros,sobrevivientes,supervivencia_%
-1,216,136,63.0
-2,184,87,47.3
-3,491,119,24.2
+Pclass,Survived
+1,62.96296296296296
+2,47.28260869565217
+3,24.236252545824847
